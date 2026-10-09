@@ -1,0 +1,95 @@
+:root {
+  --bg: #0f1419;
+  --surface: #1a2332;
+  --text: #e7ecf3;
+  --muted: #9aa8bc;
+  --accent: #3b82f6;
+  --border: #2a3648;
+  --radius: 12px;
+  --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 880px; margin: 0 auto; padding: 1.5rem; }
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 0 2rem;
+  border-bottom: 1px solid var(--border);
+}
+.brand { font-weight: 700; font-size: 1.15rem; color: var(--text); }
+nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+nav a { color: var(--muted); font-size: 0.95rem; }
+nav a:hover, nav a.active { color: var(--text); }
+.hero {
+  padding: 2.5rem 0 1.5rem;
+  display: grid;
+  gap: 1.25rem;
+}
+.hero h1 { margin: 0; font-size: clamp(1.6rem, 4vw, 2.2rem); }
+.headline { color: var(--muted); font-size: 1.1rem; margin: 0; }
+.lang-toggle {
+  display: inline-flex;
+  gap: 0.35rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.2rem;
+}
+.lang-toggle button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+}
+.lang-toggle button.active {
+  background: var(--accent);
+  color: white;
+}
+section { padding: 1.75rem 0; border-bottom: 1px solid var(--border); }
+section h2 { margin: 0 0 1rem; font-size: 1.25rem; }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+.card h3 { margin: 0 0 0.35rem; font-size: 1.05rem; }
+.meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 0.75rem; }
+.tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+.tag {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: #243044;
+  color: var(--muted);
+}
+footer {
+  padding: 2rem 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.hidden { display: none !important; }
+.placeholder {
+  color: var(--muted);
+  font-style: italic;
+}
+@media (max-width: 560px) {
+  header { align-items: flex-start; }
+}
