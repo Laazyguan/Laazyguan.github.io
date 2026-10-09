@@ -2,6 +2,45 @@
   "updatedAt": "2026-10-09",
   "jobs": [
     {
+      "id": "palatial-sim-lead",
+      "titleZh": "仿真团队负责人",
+      "titleEn": "Simulation Team Lead",
+      "company": "Palatial",
+      "companyUrl": "https://palatial.cloud/",
+      "companyBlurbZh": "AI 驱动的 3D 仿真工具，自动化虚拟世界构建，把图像/视频/点云/CAD 等转成 physics-ready 仿真资产与数字孪生（产品 PhysReady）。",
+      "companyBlurbEn": "AI-powered 3D simulation tools that automate virtual-world building—turning images, video, point clouds, and CAD into physics-ready simulation assets and digital twins (PhysReady).",
+      "location": "San Francisco, CA",
+      "locationZh": "旧金山",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "负责机器人仿真团队；需要在仿真中训练机器人并部署到生产环境的丰富经验。",
+      "descEn": "Lead simulation work for robotics — train robots in simulation and deploy them in production.",
+      "requirementsZh": [
+        "丰富的机器人仿真经验，能把仿真训练落地到生产部署",
+        "具备带领仿真团队的经验"
+      ],
+      "requirementsEn": [
+        "Strong experience training robots in simulation and deploying to production",
+        "Experience leading a simulation team"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Simulation",
+        "Isaac Sim",
+        "Sim-to-Real",
+        "Robotics",
+        "Team Lead",
+        "Digital Twin"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://palatial.cloud/",
+      "trending": true,
+      "logo": "assets/companies/palatial.png"
+    },
+    {
       "id": "ropedia-mm-us",
       "titleZh": "市场负责人",
       "titleEn": "Marketing Manager",
