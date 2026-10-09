@@ -236,26 +236,52 @@ img { max-width: 100%; display: block; }
 /* —— Trending carousel —— */
 .carousel-wrap {
   position: relative;
+  overflow: hidden;
 }
+.carousel-wrap::before,
 .carousel-wrap::after {
   content: "";
   pointer-events: none;
   position: absolute;
-  top: 0; right: 0; bottom: 0;
-  width: 72px;
-  background: linear-gradient(90deg, transparent, var(--bg));
+  top: 0; bottom: 0;
+  width: 56px;
   z-index: 2;
+}
+.carousel-wrap::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--bg), transparent);
+}
+.carousel-wrap::after {
+  right: 0;
+  background: linear-gradient(90deg, transparent, var(--bg));
 }
 .carousel {
   display: flex;
   gap: 1rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
+  width: max-content;
   padding-bottom: 0.25rem;
-  -webkit-overflow-scrolling: touch;
+  will-change: transform;
 }
-.carousel::-webkit-scrollbar { display: none; }
+.carousel.is-marquee {
+  animation: roles-marquee var(--marquee-duration, 28s) linear infinite;
+}
+.carousel-wrap:hover .carousel.is-marquee,
+.carousel-wrap:focus-within .carousel.is-marquee,
+.carousel.is-paused {
+  animation-play-state: paused;
+}
+@keyframes roles-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .carousel.is-marquee { animation: none; }
+  .carousel {
+    overflow-x: auto;
+    max-width: 100%;
+    scroll-snap-type: x mandatory;
+  }
+}
 
 .trend-card {
   flex: 0 0 min(260px, 78vw);

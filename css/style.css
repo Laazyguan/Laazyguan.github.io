@@ -236,24 +236,50 @@ footer {
 .home-carousel-wrap {
   position: relative;
   margin-bottom: 1.25rem;
+  overflow: hidden;
 }
+.home-carousel-wrap::before,
 .home-carousel-wrap::after {
   content: "";
   pointer-events: none;
   position: absolute;
-  top: 0; right: 0; bottom: 0;
-  width: 56px;
+  top: 0; bottom: 0;
+  width: 48px;
+  z-index: 2;
+}
+.home-carousel-wrap::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--bg), transparent);
+}
+.home-carousel-wrap::after {
+  right: 0;
   background: linear-gradient(90deg, transparent, var(--bg));
 }
 .home-carousel {
   display: flex;
   gap: 0.85rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
+  width: max-content;
   padding-bottom: 0.25rem;
+  will-change: transform;
 }
-.home-carousel::-webkit-scrollbar { display: none; }
+.home-carousel.is-marquee {
+  animation: home-marquee var(--marquee-duration, 26s) linear infinite;
+}
+.home-carousel-wrap:hover .home-carousel.is-marquee {
+  animation-play-state: paused;
+}
+@keyframes home-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-carousel.is-marquee { animation: none; }
+  .home-carousel {
+    overflow-x: auto;
+    max-width: 100%;
+    scroll-snap-type: x mandatory;
+  }
+}
 .home-role-card {
   flex: 0 0 min(220px, 75vw);
   scroll-snap-align: start;

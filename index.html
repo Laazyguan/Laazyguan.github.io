@@ -220,11 +220,12 @@
         }
         let list = jobs.filter(j => j.trending);
         if (list.length < 4) list = jobs.slice(0, 6);
-        carousel.innerHTML = list.map(j => {
+        const card = (j, hidden) => {
           const title = lang === "zh" ? (j.titleZh || j.titleEn || "") : (j.titleEn || j.titleZh || "");
           const loc = lang === "zh" ? (j.locationZh || j.location || "") : (j.location || j.locationZh || "");
           const figure = j.salary || loc || i18n[lang].salary_na;
-          return `<a class="home-role-card" href="roles/detail.html?id=${encodeURIComponent(j.id)}">
+          const attrs = hidden ? ' tabindex="-1" aria-hidden="true"' : '';
+          return `<a class="home-role-card" href="roles/detail.html?id=${encodeURIComponent(j.id)}"${attrs}>
             <div class="home-role-art ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div>
             <div class="home-role-body">
               <div class="home-role-title">${escapeHtml(title)}</div>
@@ -232,7 +233,10 @@
               <div class="home-role-figure">${escapeHtml(figure)}</div>
             </div>
           </a>`;
-        }).join("");
+        };
+        carousel.innerHTML = list.map(j => card(j, false)).join("") + list.map(j => card(j, true)).join("");
+        carousel.classList.add("is-marquee");
+        carousel.style.setProperty("--marquee-duration", Math.max(18, list.length * 3.5) + "s");
       } catch (e) {
         carousel.innerHTML = `<div class="card placeholder">${i18n[lang].jobs_empty}</div>`;
       }

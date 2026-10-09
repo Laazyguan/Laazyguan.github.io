@@ -219,21 +219,12 @@
     });
   }
 
-  function renderTrending() {
-    const track = document.getElementById("trending-track");
-    if (!track) return;
-    let list = state.jobs.filter((j) => j.trending);
-    if (list.length < 4) {
-      const rest = state.jobs.filter((j) => !j.trending);
-      list = list.concat(rest).slice(0, Math.max(4, list.length));
-    }
-    track.innerHTML = list
-      .map((j, i) => {
-        const title = pick(j, "titleZh", "titleEn");
-        const loc = pick(j, "locationZh", "location") || j.location || "";
-        const figure = j.salary || loc || t("salary_na");
-        const tone = toneFor(j.id);
-        return `<a class="trend-card" href="${detailHref(j.id)}">
+  function trendCardHtml(j, i) {
+    const title = pick(j, "titleZh", "titleEn");
+    const loc = pick(j, "locationZh", "location") || j.location || "";
+    const figure = j.salary || loc || t("salary_na");
+    const tone = toneFor(j.id);
+    return `<a class="trend-card" href="${detailHref(j.id)}">
           <div class="trend-art ${tone}">${escapeHtml(initials(j.company))}</div>
           <div class="trend-meta">
             <div class="trend-rank">#${i + 1}</div>
@@ -242,8 +233,26 @@
             <div class="trend-figure">${escapeHtml(figure)}</div>
           </div>
         </a>`;
-      })
+  }
+
+  function renderTrending() {
+    const track = document.getElementById("trending-track");
+    if (!track) return;
+    let list = state.jobs.filter((j) => j.trending);
+    if (list.length < 4) {
+      const rest = state.jobs.filter((j) => !j.trending);
+      list = list.concat(rest).slice(0, Math.max(6, list.length));
+    }
+    // Duplicate for seamless auto-marquee (second half is aria-hidden clone)
+    const first = list.map((j, i) => trendCardHtml(j, i)).join("");
+    const clone = list
+      .map((j, i) => trendCardHtml(j, i).replace("<a ", '<a tabindex="-1" aria-hidden="true" '))
       .join("");
+    track.innerHTML = first + clone;
+    track.classList.add("is-marquee");
+    // ~3.5s per card for half-track loop
+    const seconds = Math.max(18, list.length * 3.5);
+    track.style.setProperty("--marquee-duration", seconds + "s");
   }
 
   function renderList(jobs) {
@@ -312,20 +321,39 @@
 
   function wireCarousel() {
     const track = document.getElementById("trending-track");
+    const wrap = track && track.parentElement;
     const prev = document.getElementById("carousel-prev");
     const next = document.getElementById("carousel-next");
     if (!track) return;
-    const step = () => Math.min(280, track.clientWidth * 0.7);
-    if (prev) prev.addEventListener("click", () => track.scrollBy({ left: -step(), behavior: "smooth" }));
-    if (next) next.addEventListener("click", () => track.scrollBy({ left: step(), behavior: "smooth" }));
 
-    let auto = setInterval(() => {
-      if (document.hidden) return;
-      const max = track.scrollWidth - track.clientWidth - 4;
-      if (track.scrollLeft >= max) track.scrollTo({ left: 0, behavior: "smooth" });
-      else track.scrollBy({ left: step(), behavior: "smooth" });
-    }, 4500);
-    track.addEventListener("pointerdown", () => clearInterval(auto), { once: true });
+    // Manual nudge: briefly pause CSS marquee and shift by one card width via scrollLeft fallback
+    const nudge = (dir) => {
+      track.classList.add("is-paused");
+      const card = track.querySelector(".trend-card");
+      const step = (card ? card.getBoundingClientRect().width : 260) + 16;
+      const current = getComputedStyle(track).transform;
+      // pause animation and use temporary scroll container behavior
+      track.style.animation = "none";
+      track.style.transform = "none";
+      track.style.overflowX = "auto";
+      track.scrollBy({ left: dir * step, behavior: "smooth" });
+      clearTimeout(track._resumeTimer);
+      track._resumeTimer = setTimeout(() => {
+        track.style.overflowX = "";
+        track.style.animation = "";
+        track.style.transform = "";
+        track.classList.remove("is-paused");
+        // restart seamless loop from duplicated content
+        renderTrending();
+      }, 2800);
+    };
+    if (prev) prev.addEventListener("click", () => nudge(-1));
+    if (next) next.addEventListener("click", () => nudge(1));
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) track.classList.add("is-paused");
+      else track.classList.remove("is-paused");
+    });
   }
 
   function wireBoardControls() {
