@@ -5,18 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Xuezheng Guan · Robotics & AI Recruiter</title>
   <meta name="description" content="Xuezheng Guan (Jeffrey) — specialized technical recruiter for Robotics and AI talent across North America." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <div class="wrap">
     <header>
-      <a class="brand" href="./">Xuezheng Guan</a>
+      <a class="brand" href="./">xuezheng guan</a>
       <nav>
         <a href="#about" data-i18n="nav_about">关于</a>
         <a href="#experience" data-i18n="nav_exp">经历</a>
-        <a href="#jobs" data-i18n="nav_jobs">在招岗位</a>
+        <a href="#jobs" data-i18n="nav_jobs">岗位</a>
         <a href="#contact" data-i18n="nav_contact">联系</a>
-        <a href="https://www.linkedin.com/in/xuezheng-guan-97a167426/" target="_blank" rel="noopener">LinkedIn</a>
       </nav>
       <div class="lang-toggle" role="group" aria-label="Language">
         <button type="button" id="lang-zh" class="active">中文</button>
@@ -25,71 +27,79 @@
     </header>
 
     <div class="hero">
-      <h1>Xuezheng Guan <span style="color:var(--muted);font-weight:500;font-size:0.7em">(Jeffrey)</span></h1>
+      <p class="eyebrow"><span class="accent-dot"></span><span data-i18n="eyebrow">Robotics · AI · North America</span></p>
+      <h1>Xuezheng Guan <span class="nick">(Jeffrey)</span></h1>
       <p class="headline" data-i18n="headline">专注北美机器人与 AI 人才的技术猎头</p>
-      <p class="meta" data-i18n="location">美国 · 俄勒冈州 · IntelliPro 高级顾问</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#jobs" data-i18n="cta_jobs">查看在招岗位</a>
+        <a class="btn" href="https://www.linkedin.com/in/xuezheng-guan-97a167426/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </div>
 
     <section id="about">
-      <h2 data-i18n="about_title">关于我</h2>
-      <div class="card">
-        <p class="lang-zh">我是一名专注机器人与人工智能方向的技术猎头，服务北美市场，帮助公司和顶尖工程师找到合适的匹配。</p>
-        <p class="lang-en hidden">I’m a specialized technical recruiter focused on Robotics and AI talent across North America.</p>
-        <div class="tags">
-          <span class="tag">Robotics</span>
-          <span class="tag">AI / ML</span>
-          <span class="tag">North America</span>
-          <span class="tag">IntelliPro</span>
-        </div>
+      <div class="section-head"><h2 data-i18n="about_title">About</h2></div>
+      <p class="about-lead lang-zh">我是一名专注机器人与人工智能方向的技术猎头，服务北美市场，帮助公司和顶尖工程师找到合适的匹配。</p>
+      <p class="about-lead lang-en hidden">I’m a specialized technical recruiter focused on Robotics and AI talent across North America.</p>
+      <p class="meta" data-i18n="location">美国 · 俄勒冈州 · IntelliPro 高级顾问</p>
+      <div class="tags" style="margin-top:1.25rem">
+        <span class="tag">Robotics</span>
+        <span class="tag">AI / ML</span>
+        <span class="tag">North America</span>
+        <span class="tag">IntelliPro</span>
       </div>
     </section>
 
     <section id="experience">
-      <h2 data-i18n="exp_title">经历</h2>
-
-      <article class="card">
-        <h3 data-i18n="exp1_title">高级顾问 · IntelliPro</h3>
-        <div class="meta" data-i18n="exp1_meta">全职 · 2025年8月 – 至今 · 美国俄勒冈州 · 远程</div>
-        <p class="lang-zh">招聘机器人 / AI 领域的优秀人才。</p>
-        <p class="lang-en hidden">Recruiting Robotics/AI talent across North America.</p>
-      </article>
-
-      <article class="card">
-        <h3 data-i18n="exp2_title">顾问 · IntelliPro</h3>
-        <div class="meta" data-i18n="exp2_meta">全职 · 2024年4月 – 2025年8月 · 美国佛罗里达州橙县</div>
-        <p class="lang-zh">转正并晋升为全职顾问，继续深耕技术招聘。</p>
-        <p class="lang-en hidden">Converted to full-time and promoted; continued technical recruiting.</p>
-      </article>
-
-      <article class="card">
-        <h3 data-i18n="exp3_title">实习生 · IntelliPro</h3>
-        <div class="meta" data-i18n="exp3_meta">实习 · 2023年10月 – 2024年4月 · 美国佛罗里达州橙县</div>
-        <p class="lang-zh">从招聘流程上手，把找人做成可规模化的方法。</p>
-        <p class="lang-en hidden">Built recruiting workflows and scaled the craft of finding people.</p>
-      </article>
-
-      <article class="card">
-        <h3 data-i18n="edu_title">爱丁堡大学</h3>
-        <div class="meta" data-i18n="edu_meta">统计学学士 · 2017年6月 – 2021年9月 · GPA 3.5/4.0</div>
-      </article>
+      <div class="section-head"><h2 data-i18n="exp_title">Experience</h2></div>
+      <div class="grid-2">
+        <article class="card">
+          <h3 data-i18n="exp1_title">高级顾问 · IntelliPro</h3>
+          <div class="meta" data-i18n="exp1_meta">全职 · 2025.08 – 至今 · Oregon · Remote</div>
+          <p class="lang-zh">招聘机器人 / AI 领域的优秀人才。</p>
+          <p class="lang-en hidden">Recruiting Robotics/AI talent across North America.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="exp2_title">顾问 · IntelliPro</h3>
+          <div class="meta" data-i18n="exp2_meta">全职 · 2024.04 – 2025.08 · Orange County, FL</div>
+          <p class="lang-zh">转正并晋升为全职顾问，继续深耕技术招聘。</p>
+          <p class="lang-en hidden">Converted to full-time and promoted; continued technical recruiting.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="exp3_title">实习生 · IntelliPro</h3>
+          <div class="meta" data-i18n="exp3_meta">实习 · 2023.10 – 2024.04 · Orange County, FL</div>
+          <p class="lang-zh">从招聘流程上手，把找人做成可规模化的方法。</p>
+          <p class="lang-en hidden">Built recruiting workflows and scaled the craft of finding people.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="edu_title">爱丁堡大学</h3>
+          <div class="meta" data-i18n="edu_meta">统计学学士 · 2017.06 – 2021.09 · GPA 3.5/4.0</div>
+          <p class="lang-zh">The University of Edinburgh</p>
+          <p class="lang-en hidden">Bachelor’s degree in Statistics</p>
+        </article>
+      </div>
     </section>
 
     <section id="jobs">
-      <h2 data-i18n="jobs_title">在招岗位</h2>
-      <p class="meta" id="jobs-updated"></p>
+      <div class="section-head">
+        <h2 data-i18n="jobs_title">Open Roles</h2>
+        <span class="meta" id="jobs-updated"></span>
+      </div>
       <div id="jobs-list"></div>
     </section>
 
     <section id="contact">
-      <h2 data-i18n="contact_title">联系</h2>
+      <div class="section-head"><h2 data-i18n="contact_title">Contact</h2></div>
       <div class="card">
         <p data-i18n="contact_body">欢迎通过 LinkedIn 联系，或把简历与意向岗位发给我。</p>
-        <p><a href="https://www.linkedin.com/in/xuezheng-guan-97a167426/" target="_blank" rel="noopener">linkedin.com/in/xuezheng-guan-97a167426</a></p>
+        <p style="margin-top:0.85rem">
+          <a href="https://www.linkedin.com/in/xuezheng-guan-97a167426/" target="_blank" rel="noopener">linkedin.com/in/xuezheng-guan-97a167426</a>
+        </p>
       </div>
     </section>
 
     <footer>
-      <span data-i18n="footer">由 GitHub Pages 托管 · 岗位持续更新</span>
+      <span data-i18n="footer">GitHub Pages · Updated regularly</span>
+      <a href="https://github.com/Laazyguan/Laazyguan.github.io" target="_blank" rel="noopener">source</a>
     </footer>
   </div>
 
@@ -98,52 +108,56 @@
       zh: {
         nav_about: "关于",
         nav_exp: "经历",
-        nav_jobs: "在招岗位",
+        nav_jobs: "岗位",
         nav_contact: "联系",
+        eyebrow: "Robotics · AI · North America",
         headline: "专注北美机器人与 AI 人才的技术猎头",
+        cta_jobs: "查看在招岗位",
         location: "美国 · 俄勒冈州 · IntelliPro 高级顾问",
-        about_title: "关于我",
+        about_title: "关于",
         exp_title: "经历",
         exp1_title: "高级顾问 · IntelliPro",
-        exp1_meta: "全职 · 2025年8月 – 至今 · 美国俄勒冈州 · 远程",
+        exp1_meta: "全职 · 2025.08 – 至今 · Oregon · Remote",
         exp2_title: "顾问 · IntelliPro",
-        exp2_meta: "全职 · 2024年4月 – 2025年8月 · 美国佛罗里达州橙县",
+        exp2_meta: "全职 · 2024.04 – 2025.08 · Orange County, FL",
         exp3_title: "实习生 · IntelliPro",
-        exp3_meta: "实习 · 2023年10月 – 2024年4月 · 美国佛罗里达州橙县",
+        exp3_meta: "实习 · 2023.10 – 2024.04 · Orange County, FL",
         edu_title: "爱丁堡大学",
-        edu_meta: "统计学学士 · 2017年6月 – 2021年9月 · GPA 3.5/4.0",
+        edu_meta: "统计学学士 · 2017.06 – 2021.09 · GPA 3.5/4.0",
         jobs_title: "在招岗位",
         jobs_empty: "暂无公开岗位。把 JD 发给我后会更新到这里。",
         jobs_updated_prefix: "更新于 ",
         contact_title: "联系",
         contact_body: "欢迎通过 LinkedIn 联系，或把简历与意向岗位发给我。",
-        footer: "由 GitHub Pages 托管 · 岗位持续更新",
-        details: "详情"
+        footer: "GitHub Pages · 持续更新",
+        details: "详情 →"
       },
       en: {
         nav_about: "About",
         nav_exp: "Experience",
-        nav_jobs: "Open Roles",
+        nav_jobs: "Roles",
         nav_contact: "Contact",
+        eyebrow: "Robotics · AI · North America",
         headline: "Specialized technical recruiter for Robotics & AI talent across North America",
+        cta_jobs: "View open roles",
         location: "Oregon, United States · Senior Consultant, IntelliPro",
         about_title: "About",
         exp_title: "Experience",
         exp1_title: "Senior Consultant · IntelliPro",
-        exp1_meta: "Full-time · Aug 2025 – Present · Oregon, United States · Remote",
+        exp1_meta: "Full-time · Aug 2025 – Present · Oregon · Remote",
         exp2_title: "Consultant · IntelliPro",
-        exp2_meta: "Full-time · Apr 2024 – Aug 2025 · Orange County, Florida, United States",
+        exp2_meta: "Full-time · Apr 2024 – Aug 2025 · Orange County, FL",
         exp3_title: "Intern · IntelliPro",
-        exp3_meta: "Internship · Oct 2023 – Apr 2024 · Orange County, Florida, United States",
-        edu_title: "The University of Edinburgh",
-        edu_meta: "Bachelor’s degree, Statistics · Jun 2017 – Sep 2021 · Grade 3.5/4.0",
+        exp3_meta: "Internship · Oct 2023 – Apr 2024 · Orange County, FL",
+        edu_title: "University of Edinburgh",
+        edu_meta: "BSc Statistics · Jun 2017 – Sep 2021 · GPA 3.5/4.0",
         jobs_title: "Open Roles",
-        jobs_empty: "No open roles listed yet. Send me a JD and I’ll post it here.",
+        jobs_empty: "No open roles listed yet. Send a JD and I’ll post it here.",
         jobs_updated_prefix: "Updated ",
         contact_title: "Contact",
         contact_body: "Reach out on LinkedIn, or share your resume and target roles.",
-        footer: "Hosted on GitHub Pages · Roles updated regularly",
-        details: "Details"
+        footer: "GitHub Pages · Updated regularly",
+        details: "Details →"
       }
     };
 
@@ -185,7 +199,7 @@
           const desc = lang === "zh" ? (j.descZh || j.descEn || "") : (j.descEn || j.descZh || "");
           const tags = (j.tags || []).map(t => `<span class="tag">${t}</span>`).join("");
           const link = j.url
-            ? `<p><a href="${j.url}" target="_blank" rel="noopener">${i18n[lang].details}</a></p>`
+            ? `<p style="margin-top:0.75rem"><a href="${j.url}" target="_blank" rel="noopener">${i18n[lang].details}</a></p>`
             : "";
           return `<article class="card"><h3>${title}</h3><div class="meta">${[company, loc].filter(Boolean).join(" · ")}</div><p>${desc}</p>${link}<div class="tags">${tags}</div></article>`;
         }).join("");
