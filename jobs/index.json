@@ -2,44 +2,121 @@
   "updatedAt": "2026-10-09",
   "jobs": [
     {
+      "id": "ropedia-mm-us",
       "titleZh": "市场负责人",
       "titleEn": "Marketing Manager",
       "company": "Ropedia",
+      "companyUrl": "https://ropedia.com",
+      "companyBlurbZh": "Physical AI 数据基础设施：HOMIE 第一人称采集硬件、Foundry 数据处理平台、Xperience 数据集与 Physical data-as-a-Service。",
+      "companyBlurbEn": "Physical AI data infrastructure — HOMIE capture hardware, Foundry processing, Xperience datasets, and Physical data-as-a-Service.",
       "location": "United States",
-      "descZh": "Physical AI 数据基础设施公司，从 0–1 搭建北美品牌与 B2B 市场体系：定位与视觉、全渠道内容、获客漏斗、白皮书/活动与公关。需要 5–10 年 B2B 科技市场 hands-on 经验，英文可商务沟通。",
-      "descEn": "Physical AI data infrastructure. Build brand and B2B marketing 0→1 in the U.S.: positioning, content, demand gen, events/PR. 5–10 years hands-on B2B tech marketing; business English.",
+      "locationZh": "美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "从 0–1 搭建北美品牌与 B2B 市场体系：品牌定位与视觉、全渠道内容、获客漏斗、白皮书/峰会/活动与公关媒体，并对市场数据与预算负责。",
+      "descEn": "Build brand and B2B marketing 0→1 in the U.S.: positioning & visual identity, multi-channel content, demand-gen funnel, whitepapers/events/PR, plus marketing analytics and budget.",
+      "requirementsZh": [
+        "5–10 年 B2B 科技公司市场经验，必须 hands-on 做过 0–1",
+        "英文可商务沟通",
+        "大厂螺丝钉或虚高 leader 不合适"
+      ],
+      "requirementsEn": [
+        "5–10 years hands-on B2B tech marketing, including 0→1 builds",
+        "Business English",
+        "Not a fit for pure big-co specialists or inflated ‘leader’ titles"
+      ],
+      "niceZh": [
+        "AI / 机器人 / 具身智能 / 数据服务 / SaaS",
+        "海外或跨国团队",
+        "技术背景"
+      ],
+      "niceEn": [
+        "AI / robotics / embodied AI / data services / SaaS",
+        "Cross-border teams",
+        "Technical background"
+      ],
       "tags": [
         "B2B Marketing",
         "Brand",
         "Content",
         "Lead Gen",
-        "Physical AI",
-        "Robotics Data"
+        "Physical AI"
       ],
-      "url": "https://ropedia.com"
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://ropedia.com",
+      "trending": true
     },
     {
+      "id": "ropedia-mm-sh",
       "titleZh": "市场负责人",
       "titleEn": "Marketing Manager",
       "company": "Ropedia",
-      "location": "上海 · 徐汇滨江",
-      "descZh": "面向中国市场的市场负责人（徐汇滨江）。从 0–1 搭建品牌与市场体系，B2B 获客与内容；背景优先，英文可后补。",
-      "descEn": "China-market Marketing Manager based in Xuhui Riverside, Shanghai. Build brand and B2B GTM 0→1; strong background first, English can follow.",
+      "companyUrl": "https://ropedia.com",
+      "companyBlurbZh": "Physical AI 数据基础设施公司，中国市场岗位。",
+      "companyBlurbEn": "Physical AI data infrastructure — China market role.",
+      "location": "Shanghai · Xuhui Riverside",
+      "locationZh": "上海 · 徐汇滨江",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "面向中国市场的市场负责人：从 0–1 搭建品牌与市场体系、B2B 获客与内容。背景优先，英文可后补。",
+      "descEn": "China-market Marketing Manager: build brand and B2B GTM 0→1. Strong background first; English can follow.",
+      "requirementsZh": [
+        "B2B 科技 / 市场相关背景",
+        "能独立推动品牌与获客"
+      ],
+      "requirementsEn": [
+        "B2B tech / marketing background",
+        "Can independently drive brand and demand gen"
+      ],
+      "niceZh": [
+        "AI / 机器人 / 数据服务"
+      ],
+      "niceEn": [
+        "AI / robotics / data services"
+      ],
       "tags": [
         "B2B Marketing",
         "Brand",
         "Physical AI",
         "Shanghai"
       ],
-      "url": "https://ropedia.com"
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey).",
+      "externalUrl": "https://ropedia.com",
+      "trending": false
     },
     {
+      "id": "dexmate-ee",
       "titleZh": "高级电气工程师",
       "titleEn": "Senior Electrical Engineer",
       "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
       "location": "Fremont, CA · Onsite",
-      "descZh": "电源电子、电机驱动、传感器集成与多层 PCB，从原理图到量产。薪资 $100K–$300K。",
-      "descEn": "Power electronics, motor drives, sensor integration, multi-layer PCB — schematic to production. $100K–$300K.",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$100K–$300K",
+      "descZh": "负责电源电子、电机驱动、传感器集成与多层 PCB，从原理图到量产。",
+      "descEn": "Power electronics, motor drives, sensor integration, and multi-layer PCB — from schematic through production.",
+      "requirementsZh": [
+        "5+ 年电气经验（机器人 / 工控 / 汽车 / 消费电子），至少一款量产",
+        "Altium / Cadence / KiCad",
+        "BMS / 配电 / DC-DC；BLDC / PMSM / FOC",
+        "8+ 层混合信号 PCB"
+      ],
+      "requirementsEn": [
+        "5+ years electrical (robotics / industrial / auto / consumer), at least one shipped product",
+        "Altium / Cadence / KiCad",
+        "BMS / power distribution / DC-DC; BLDC / PMSM / FOC",
+        "8+ layer mixed-signal PCB"
+      ],
+      "niceZh": [],
+      "niceEn": [],
       "tags": [
         "Power Electronics",
         "Motor Drive",
@@ -48,32 +125,89 @@
         "BMS",
         "Robotics"
       ],
-      "url": "https://jobs.ashbyhq.com/dexmate/4c45348a-24b9-4445-9230-13d44d3eaa52"
+      "applyHintZh": "通过本页投递；需要可附作品集或过往量产案例。",
+      "applyHintEn": "Apply here; include portfolio or shipped-product examples if available.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/4c45348a-24b9-4445-9230-13d44d3eaa52",
+      "trending": true
     },
     {
+      "id": "dexmate-me",
       "titleZh": "高级机械工程师",
       "titleEn": "Senior Mechanical Engineer",
       "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
       "location": "Fremont, CA · Onsite",
-      "descZh": "人形平台机械子系统：CAD→原型→供应商→FAI→量产，DFM/DFA。薪资 $120K–$300K + equity。",
-      "descEn": "Mechanical subsystems for humanoid platforms: CAD → prototype → suppliers → FAI → production. $120K–$300K + equity.",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$120K–$300K + equity",
+      "descZh": "人形平台机械子系统：CAD→原型→供应商→FAI→量产，强调 DFM/DFA。",
+      "descEn": "Mechanical subsystems for humanoid platforms: CAD → prototype → suppliers → FAI → production, with strong DFM/DFA.",
+      "requirementsZh": [
+        "5+ 年，至少一款量产（只做过原型不合适）",
+        "SolidWorks / NX / CATIA / Onshape",
+        "GD&T ASME Y14.5",
+        "谐波 / 行星 / 摆线或直驱；FEA / 公差"
+      ],
+      "requirementsEn": [
+        "5+ years with at least one production design (prototype-only not a fit)",
+        "SolidWorks / NX / CATIA / Onshape",
+        "GD&T ASME Y14.5",
+        "Harmonic / planetary / cycloidal or direct drive; FEA / tolerancing"
+      ],
+      "niceZh": [],
+      "niceEn": [],
       "tags": [
         "Mechanical Design",
         "Actuators",
         "Harmonic Drive",
         "DFM",
-        "Humanoid",
-        "CAD"
+        "Humanoid"
       ],
-      "url": "https://jobs.ashbyhq.com/dexmate/40210ea9-d37d-46a2-ab96-c609b047b82c"
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/40210ea9-d37d-46a2-ab96-c609b047b82c",
+      "trending": true
     },
     {
+      "id": "dexmate-rl",
       "titleZh": "强化学习工程师",
       "titleEn": "Reinforcement Learning Engineer",
       "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
       "location": "Fremont, CA · Onsite",
-      "descZh": "机器人任务 RL 算法与训练管线，仿真与真机，规模化训练。薪资 $120K–$300K。",
-      "descEn": "RL algorithms and training pipelines for robot tasks — sim and real, at scale. $120K–$300K.",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$120K–$300K",
+      "descZh": "机器人任务 RL 算法与训练管线，仿真与真机，规模化训练。",
+      "descEn": "RL algorithms and training pipelines for robot tasks — simulation and real robots, at scale.",
+      "requirementsZh": [
+        "熟悉 PPO / SAC / TD3 / DDPG 等",
+        "机器人仿真或真机经验；操作 / 行走 / 导航上用过 RL",
+        "Python + PyTorch / TF / JAX",
+        "Isaac Gym / Lab 或 SAPIEN；运动学动力学与控制基础"
+      ],
+      "requirementsEn": [
+        "PPO / SAC / TD3 / DDPG (or similar)",
+        "Robot sim or hardware RL on manipulation / locomotion / navigation",
+        "Python + PyTorch / TF / JAX",
+        "Isaac Gym / Lab or SAPIEN; kinematics / dynamics / controls basics"
+      ],
+      "niceZh": [
+        "分布式 RL",
+        "sim-to-real",
+        "顶会论文"
+      ],
+      "niceEn": [
+        "Distributed RL",
+        "Sim-to-real",
+        "Top-tier publications"
+      ],
       "tags": [
         "Reinforcement Learning",
         "Robotics",
@@ -81,58 +215,159 @@
         "PyTorch",
         "Sim-to-Real"
       ],
-      "url": "https://jobs.ashbyhq.com/dexmate/b96cfe35-f521-4322-90e9-aeaf9aeed3a9"
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/b96cfe35-f521-4322-90e9-aeaf9aeed3a9",
+      "trending": true
     },
     {
+      "id": "dexmate-controls",
       "titleZh": "高级机器人控制工程师",
       "titleEn": "Senior Robotics Controls Engineer",
       "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
       "location": "Fremont, CA · Onsite",
-      "descZh": "状态估计与全身控制；生产级实时 C++；仿真与真机迭代。薪资 $100K–$300K。",
-      "descEn": "State estimation and whole-body control; production real-time C++; sim and hardware iteration. $100K–$300K.",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$100K–$300K",
+      "descZh": "状态估计与全身控制；生产级实时 C++；仿真与真机迭代。",
+      "descEn": "State estimation and whole-body control; production real-time C++; iterate in sim and on hardware.",
+      "requirementsZh": [
+        "5+ 年动态机器人控制（真机）",
+        "硕 / 博；非线性 / MPC / 最优 / 全身控制",
+        "EKF / UKF / 粒子滤波 / 因子图",
+        "生产级 C++ 与 Python；传感器集成"
+      ],
+      "requirementsEn": [
+        "5+ years dynamic robot control on real hardware",
+        "MS/PhD; nonlinear / MPC / optimal / whole-body control",
+        "EKF / UKF / particle filters / factor graphs",
+        "Production C++ and Python; sensor integration"
+      ],
+      "niceZh": [
+        "人形 / 四足 / 双足",
+        "RL 增强控制",
+        "MuJoCo / Drake / Isaac",
+        "顶会论文"
+      ],
+      "niceEn": [
+        "Humanoid / quadruped / biped",
+        "RL-augmented control",
+        "MuJoCo / Drake / Isaac",
+        "Top-tier pubs"
+      ],
       "tags": [
         "Controls",
         "Whole-Body Control",
         "MPC",
         "State Estimation",
-        "C++",
-        "Humanoid"
+        "C++"
       ],
-      "url": "https://jobs.ashbyhq.com/dexmate/d0660439-787f-4902-814f-62a2d256fd9f"
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/d0660439-787f-4902-814f-62a2d256fd9f",
+      "trending": false
     },
     {
+      "id": "dexmate-nav",
       "titleZh": "高级机器人导航工程师",
       "titleEn": "Senior Robotics Navigation Engineer",
       "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
       "location": "Fremont, CA · Onsite",
-      "descZh": "人形 3D SLAM、多模态状态估计与实时导航，面向量产部署。薪资 $120K–$300K + equity。",
-      "descEn": "Humanoid 3D SLAM, multi-modal state estimation, real-time navigation for production. $120K–$300K + equity.",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$120K–$300K + equity",
+      "descZh": "人形 3D SLAM、多模态状态估计与实时导航，面向量产部署而非纯仿真原型。",
+      "descEn": "Humanoid 3D SLAM, multi-modal state estimation, and real-time navigation for production deployment — not sim-only prototypes.",
+      "requirementsZh": [
+        "5+ 年已部署 SLAM / 定位（自动驾驶 / AGV / 移动机器人等）",
+        "LiDAR / VSLAM / VIO",
+        "C++14/17；GTSAM / Ceres / g2o",
+        "ROS / ROS2"
+      ],
+      "requirementsEn": [
+        "5+ years deployed SLAM / localization (AV / AGV / mobile robots)",
+        "LiDAR / VSLAM / VIO",
+        "C++14/17; GTSAM / Ceres / g2o",
+        "ROS / ROS2"
+      ],
+      "niceZh": [
+        "语义 SLAM",
+        "CUDA",
+        "GNSS / RTK",
+        "开源 SLAM 贡献"
+      ],
+      "niceEn": [
+        "Semantic SLAM",
+        "CUDA",
+        "GNSS / RTK",
+        "Open-source SLAM contributions"
+      ],
       "tags": [
         "SLAM",
         "Localization",
         "Navigation",
         "LiDAR",
         "VIO",
-        "C++",
         "ROS"
       ],
-      "url": "https://jobs.ashbyhq.com/dexmate/d94861c3-f520-45fc-a43b-a05ea9c578c3"
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/d94861c3-f520-45fc-a43b-a05ea9c578c3",
+      "trending": true
     },
     {
+      "id": "dexmate-cos",
       "titleZh": "幕僚长",
       "titleEn": "Chief of Staff",
       "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
       "location": "Fremont, CA · Onsite",
-      "descZh": "直接协助 CEO：战略、运营、融资与投资人沟通；研究与决策材料；运营体系。薪资 $100K–$400K。",
-      "descEn": "Partner with the CEO on strategy, operations, fundraising and investor communications. $100K–$400K.",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$100K–$400K",
+      "descZh": "直接协助 CEO：战略、运营、融资与投资人沟通；研究与决策材料；运营体系（tracker / SOP）。",
+      "descEn": "Partner with the CEO on strategy, operations, fundraising and investor communications; research/decision memos; operating systems (trackers / SOPs).",
+      "requirementsZh": [
+        "3+ 年 CoS / 创始人办公室 / 战略运营 / 咨询 / 投行或创业运营",
+        "科技、AI、机器人或硬件环境",
+        "分析与跨部门执行；会用 AI 工具提效"
+      ],
+      "requirementsEn": [
+        "3+ years as CoS / founder’s office / strategy ops / consulting / IB or startup ops",
+        "Tech, AI, robotics, or hardware environment",
+        "Analytical + cross-functional execution; AI tooling fluency"
+      ],
+      "niceZh": [
+        "融资 / 董事会材料",
+        "法务财务治理",
+        "早期创业经历"
+      ],
+      "niceEn": [
+        "Fundraising / board materials",
+        "Legal/finance governance",
+        "Early-stage startup experience"
+      ],
       "tags": [
         "Chief of Staff",
         "Operations",
         "Fundraising",
-        "Strategy",
-        "Robotics Startup"
+        "Strategy"
       ],
-      "url": "https://jobs.ashbyhq.com/dexmate/11a09429-ea67-490e-ace4-506972360d96"
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/11a09429-ea67-490e-ace4-506972360d96",
+      "trending": false
     }
   ]
 }

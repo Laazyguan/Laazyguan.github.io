@@ -231,3 +231,84 @@ footer {
   .hero { padding: 3.5rem 0 2.5rem; text-align: left; }
   .hero-actions { justify-content: flex-start; }
 }
+
+/* —— Home roles carousel (links into roles/) —— */
+.home-carousel-wrap {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+.home-carousel-wrap::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  width: 56px;
+  background: linear-gradient(90deg, transparent, var(--bg));
+}
+.home-carousel {
+  display: flex;
+  gap: 0.85rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-bottom: 0.25rem;
+}
+.home-carousel::-webkit-scrollbar { display: none; }
+.home-role-card {
+  flex: 0 0 min(220px, 75vw);
+  scroll-snap-align: start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: var(--text);
+  transition: border-color 0.15s, transform 0.15s;
+}
+.home-role-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.home-role-art {
+  aspect-ratio: 1.2 / 1;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+.home-role-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+.home-role-sub {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+.home-role-figure {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.jobs-browse {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.5rem;
+}
+.tone-0 { background: linear-gradient(145deg, #1a5cff, #6ea8ff); }
+.tone-1 { background: linear-gradient(145deg, #00a35a, #48e08a); }
+.tone-2 { background: linear-gradient(145deg, #7b3fe4, #c9a0ff); }
+.tone-3 { background: linear-gradient(145deg, #e85d04, #ffb703); }
+.tone-4 { background: linear-gradient(145deg, #0c1500, #3d4a33); }
+.tone-5 { background: linear-gradient(145deg, #d64045, #ff8a8a); }
+.tone-6 { background: linear-gradient(145deg, #0077b6, #90e0ef); }
+.tone-7 { background: linear-gradient(145deg, #5c4d7a, #b8a9d4); }

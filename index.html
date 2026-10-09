@@ -7,7 +7,7 @@
   <meta name="description" content="Xuezheng Guan (Jeffrey) — specialized technical recruiter for Robotics and AI talent across North America." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -17,7 +17,7 @@
       <nav>
         <a href="#about" data-i18n="nav_about">关于</a>
         <a href="#experience" data-i18n="nav_exp">经历</a>
-        <a href="#jobs" data-i18n="nav_jobs">岗位</a>
+        <a href="roles/" data-i18n="nav_jobs">岗位</a>
         <a href="#contact" data-i18n="nav_contact">联系</a>
       </nav>
       <div class="lang-toggle" role="group" aria-label="Language">
@@ -31,7 +31,7 @@
       <h1>Xuezheng Guan <span class="nick">(Jeffrey)</span></h1>
       <p class="headline" data-i18n="headline">专注北美机器人与 AI 人才的技术猎头</p>
       <div class="hero-actions">
-        <a class="btn btn-solid" href="#jobs" data-i18n="cta_jobs">查看在招岗位</a>
+        <a class="btn btn-solid" href="roles/" data-i18n="cta_jobs">查看在招岗位</a>
         <a class="btn" href="https://www.linkedin.com/in/xuezheng-guan-97a167426/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
@@ -84,7 +84,12 @@
         <h2 data-i18n="jobs_title">Open Roles</h2>
         <span class="meta" id="jobs-updated"></span>
       </div>
-      <div id="jobs-list"></div>
+      <div class="home-carousel-wrap">
+        <div class="home-carousel" id="jobs-carousel"></div>
+      </div>
+      <div class="jobs-browse">
+        <a class="btn btn-solid" href="roles/" data-i18n="browse_all">浏览全部岗位</a>
+      </div>
     </section>
 
     <section id="contact">
@@ -127,10 +132,11 @@
         jobs_title: "在招岗位",
         jobs_empty: "暂无公开岗位。把 JD 发给我后会更新到这里。",
         jobs_updated_prefix: "更新于 ",
+        browse_all: "浏览全部岗位",
+        salary_na: "面议",
         contact_title: "联系",
         contact_body: "欢迎通过 LinkedIn 联系，或把简历与意向岗位发给我。",
-        footer: "GitHub Pages · 持续更新",
-        details: "详情 →"
+        footer: "GitHub Pages · 持续更新"
       },
       en: {
         nav_about: "About",
@@ -154,16 +160,36 @@
         jobs_title: "Open Roles",
         jobs_empty: "No open roles listed yet. Send a JD and I’ll post it here.",
         jobs_updated_prefix: "Updated ",
+        browse_all: "Browse all roles",
+        salary_na: "DOE",
         contact_title: "Contact",
         contact_body: "Reach out on LinkedIn, or share your resume and target roles.",
-        footer: "GitHub Pages · Updated regularly",
-        details: "Details →"
+        footer: "GitHub Pages · Updated regularly"
       }
     };
 
-    let lang = "zh";
+    const TONES = ["tone-0","tone-1","tone-2","tone-3","tone-4","tone-5","tone-6","tone-7"];
+    function toneFor(id) {
+      let h = 0;
+      const s = String(id || "");
+      for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+      return TONES[h % TONES.length];
+    }
+    function initials(company) {
+      const parts = String(company || "?").trim().split(/\s+/);
+      if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+      return (parts[0][0] + parts[1][0]).toUpperCase();
+    }
+    function escapeHtml(s) {
+      return String(s == null ? "" : s)
+        .replace(/&/g, "&amp;").replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+
+    let lang = localStorage.getItem("xg-lang") === "en" ? "en" : "zh";
     function applyLang(next) {
       lang = next;
+      localStorage.setItem("xg-lang", next);
       document.documentElement.lang = next === "zh" ? "zh-CN" : "en";
       document.getElementById("lang-zh").classList.toggle("active", next === "zh");
       document.getElementById("lang-en").classList.toggle("active", next === "en");
@@ -179,7 +205,7 @@
     document.getElementById("lang-en").onclick = () => applyLang("en");
 
     async function renderJobs() {
-      const list = document.getElementById("jobs-list");
+      const carousel = document.getElementById("jobs-carousel");
       const updated = document.getElementById("jobs-updated");
       try {
         const res = await fetch("jobs/index.json?ts=" + Date.now());
@@ -189,25 +215,29 @@
           ? i18n[lang].jobs_updated_prefix + data.updatedAt
           : "";
         if (!jobs.length) {
-          list.innerHTML = `<div class="card placeholder">${i18n[lang].jobs_empty}</div>`;
+          carousel.innerHTML = `<div class="card placeholder">${i18n[lang].jobs_empty}</div>`;
           return;
         }
-        list.innerHTML = jobs.map(j => {
-          const title = lang === "zh" ? (j.titleZh || j.titleEn || j.title || "") : (j.titleEn || j.titleZh || j.title || "");
-          const company = j.company || "";
-          const loc = j.location || "";
-          const desc = lang === "zh" ? (j.descZh || j.descEn || "") : (j.descEn || j.descZh || "");
-          const tags = (j.tags || []).map(t => `<span class="tag">${t}</span>`).join("");
-          const link = j.url
-            ? `<p style="margin-top:0.75rem"><a href="${j.url}" target="_blank" rel="noopener">${i18n[lang].details}</a></p>`
-            : "";
-          return `<article class="card"><h3>${title}</h3><div class="meta">${[company, loc].filter(Boolean).join(" · ")}</div><p>${desc}</p>${link}<div class="tags">${tags}</div></article>`;
+        let list = jobs.filter(j => j.trending);
+        if (list.length < 4) list = jobs.slice(0, 6);
+        carousel.innerHTML = list.map(j => {
+          const title = lang === "zh" ? (j.titleZh || j.titleEn || "") : (j.titleEn || j.titleZh || "");
+          const loc = lang === "zh" ? (j.locationZh || j.location || "") : (j.location || j.locationZh || "");
+          const figure = j.salary || loc || i18n[lang].salary_na;
+          return `<a class="home-role-card" href="roles/detail.html?id=${encodeURIComponent(j.id)}">
+            <div class="home-role-art ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div>
+            <div class="home-role-body">
+              <div class="home-role-title">${escapeHtml(title)}</div>
+              <div class="home-role-sub">${escapeHtml(j.company || "")} · ${escapeHtml(loc)}</div>
+              <div class="home-role-figure">${escapeHtml(figure)}</div>
+            </div>
+          </a>`;
         }).join("");
       } catch (e) {
-        list.innerHTML = `<div class="card placeholder">${i18n[lang].jobs_empty}</div>`;
+        carousel.innerHTML = `<div class="card placeholder">${i18n[lang].jobs_empty}</div>`;
       }
     }
-    renderJobs();
+    applyLang(lang);
   </script>
 </body>
 </html>
