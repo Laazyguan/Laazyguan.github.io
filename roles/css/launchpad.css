@@ -400,23 +400,37 @@ img { max-width: 100%; display: block; }
   border-radius: var(--radius-card);
   overflow: hidden;
 }
+.jobs-list-head,
 .job-row {
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) minmax(0, 0.7fr) auto;
-  gap: 1rem;
+  grid-template-columns:
+    44px
+    minmax(200px, 1.8fr)
+    minmax(160px, 1.1fr)
+    minmax(110px, 0.85fr)
+    minmax(148px, 1fr);
+  column-gap: 1rem;
   align-items: center;
-  padding: 1rem 1.15rem;
+  padding: 0.85rem 1.15rem;
+}
+.jobs-list-head {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.jobs-list-head span:last-child { text-align: right; }
+.job-row {
   border-bottom: 1px solid var(--line);
   transition: background 0.12s;
+  min-height: 72px;
 }
 .job-row:last-child { border-bottom: 0; }
 .job-row:hover { background: var(--surface-2); }
-.job-row-main {
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
-  min-width: 0;
-}
+.job-identity { min-width: 0; }
 .avatar {
   width: 44px;
   height: 44px;
@@ -433,6 +447,9 @@ img { max-width: 100%; display: block; }
   font-weight: 800;
   letter-spacing: -0.02em;
   line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .job-ticker {
   font-size: 0.75rem;
@@ -447,12 +464,18 @@ img { max-width: 100%; display: block; }
   color: var(--ink-muted);
   font-weight: 600;
   margin-top: 0.15rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .job-cell {
   font-size: 0.88rem;
   color: var(--ink-muted);
   font-weight: 600;
   min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .job-cell strong {
   display: block;
@@ -466,6 +489,9 @@ img { max-width: 100%; display: block; }
   font-weight: 800;
   letter-spacing: -0.02em;
   white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* —— Grid view —— */
@@ -716,9 +742,15 @@ img { max-width: 100%; display: block; }
 @media (max-width: 900px) {
   .detail-layout { grid-template-columns: 1fr; }
   .apply-panel { position: static; }
+  .jobs-list-head { display: none; }
   .job-row {
-    grid-template-columns: 1fr;
-    gap: 0.45rem;
+    grid-template-columns: 44px minmax(0, 1fr);
+    row-gap: 0.35rem;
+    column-gap: 0.85rem;
+  }
+  .job-row .job-cell,
+  .job-row .job-salary {
+    grid-column: 2;
   }
   .job-salary { text-align: left; }
   .detail-header { grid-template-columns: 1fr; }

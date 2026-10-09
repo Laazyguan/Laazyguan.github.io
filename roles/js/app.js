@@ -24,6 +24,10 @@
       browse_home: "首页",
       theme_light: "浅色",
       theme_dark: "深色",
+      col_role: "岗位",
+      col_location: "地点",
+      col_type: "类型",
+      col_comp: "薪酬",
     },
     en: {
       page_title: "Open Roles",
@@ -43,6 +47,10 @@
       browse_home: "Home",
       theme_light: "Light",
       theme_dark: "Dark",
+      col_role: "Role",
+      col_location: "Location",
+      col_type: "Type",
+      col_comp: "Comp",
     },
   };
 
@@ -283,26 +291,32 @@
       return;
     }
     el.className = "jobs-list";
-    el.innerHTML = jobs
+    const head = `<div class="jobs-list-head" aria-hidden="true">
+      <span></span>
+      <span>${escapeHtml(t("col_role"))}</span>
+      <span>${escapeHtml(t("col_location"))}</span>
+      <span>${escapeHtml(t("col_type"))}</span>
+      <span>${escapeHtml(t("col_comp"))}</span>
+    </div>`;
+    const rows = jobs
       .map((j) => {
         const title = pick(j, "titleZh", "titleEn");
         const loc = pick(j, "locationZh", "location") || j.location || "";
         const type = pick(j, "typeZh", "typeEn");
         const figure = j.salary || t("salary_na");
         return `<a class="job-row" href="${detailHref(j.id)}">
-          <div class="job-row-main">
-            <div class="avatar ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div>
-            <div>
-              <div class="job-name">${escapeHtml(title)}<span class="job-ticker">${escapeHtml(ticker(j.company))}</span></div>
-              <div class="job-company-line">${escapeHtml(j.company || "")}</div>
-            </div>
+          <div class="avatar ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div>
+          <div class="job-identity">
+            <div class="job-name">${escapeHtml(title)}<span class="job-ticker">${escapeHtml(ticker(j.company))}</span></div>
+            <div class="job-company-line">${escapeHtml(j.company || "")}</div>
           </div>
-          <div class="job-cell">${escapeHtml(loc)}</div>
-          <div class="job-cell">${escapeHtml(type)}</div>
-          <div class="job-salary">${escapeHtml(figure)}</div>
+          <div class="job-cell" title="${escapeHtml(loc)}">${escapeHtml(loc)}</div>
+          <div class="job-cell" title="${escapeHtml(type)}">${escapeHtml(type)}</div>
+          <div class="job-salary" title="${escapeHtml(figure)}">${escapeHtml(figure)}</div>
         </a>`;
       })
       .join("");
+    el.innerHTML = head + rows;
   }
 
   function renderBoard() {
