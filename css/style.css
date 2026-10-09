@@ -233,6 +233,25 @@ footer {
 }
 
 /* —— Home roles carousel (links into roles/) —— */
+.home-carousel-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.home-carousel-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+}
+.home-carousel-btn:hover { background: var(--surface); }
 .home-carousel-wrap {
   position: relative;
   margin-bottom: 1.25rem;

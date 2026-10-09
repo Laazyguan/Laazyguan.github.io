@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=5" />
 </head>
 <body>
   <div class="wrap">
@@ -82,7 +82,11 @@
     <section id="jobs">
       <div class="section-head">
         <h2 data-i18n="jobs_title">Open Roles</h2>
-        <span class="meta" id="jobs-updated"></span>
+        <div class="home-carousel-controls">
+          <span class="meta" id="jobs-updated"></span>
+          <button type="button" class="home-carousel-btn" id="home-carousel-prev" aria-label="Previous">‹</button>
+          <button type="button" class="home-carousel-btn" id="home-carousel-next" aria-label="Next">›</button>
+        </div>
       </div>
       <div class="home-carousel-wrap">
         <div class="home-carousel" id="jobs-carousel"></div>
@@ -222,8 +226,7 @@
           carousel.innerHTML = `<div class="card placeholder">${i18n[lang].jobs_empty}</div>`;
           return;
         }
-        let list = jobs.filter(j => j.trending);
-        if (list.length < 4) list = jobs.slice(0, 6);
+        let list = jobs.slice();
         const card = (j, hidden) => {
           const title = lang === "zh" ? (j.titleZh || j.titleEn || "") : (j.titleEn || j.titleZh || "");
           const loc = lang === "zh" ? (j.locationZh || j.location || "") : (j.location || j.locationZh || "");
@@ -240,13 +243,58 @@
             </div>
           </a>`;
         };
+        // use all roles so the strip is long enough to scroll
+        list = jobs.slice();
         carousel.innerHTML = list.map(j => card(j, false)).join("") + list.map(j => card(j, true)).join("");
-        carousel.classList.add("is-marquee");
-        carousel.style.setProperty("--marquee-duration", Math.max(18, list.length * 3.5) + "s");
+        startHomeMarquee(carousel);
       } catch (e) {
         carousel.innerHTML = `<div class="card placeholder">${i18n[lang].jobs_empty}</div>`;
       }
     }
+
+    let homeMarqueeRaf = 0;
+    function startHomeMarquee(track) {
+      if (!track) return;
+      cancelAnimationFrame(homeMarqueeRaf);
+      track.classList.remove("is-marquee");
+      track.style.transform = "translateX(0)";
+      const wrap = track.parentElement;
+      let x = 0;
+      let paused = false;
+      const speed = 0.55; // px per frame ~33px/s at 60fps
+      const onEnter = () => { paused = true; };
+      const onLeave = () => { paused = false; };
+      wrap.onmouseenter = onEnter;
+      wrap.onmouseleave = onLeave;
+      wrap.ontouchstart = onEnter;
+      wrap.ontouchend = onLeave;
+
+      const prev = document.getElementById("home-carousel-prev");
+      const next = document.getElementById("home-carousel-next");
+      const step = () => {
+        const card = track.querySelector(".home-role-card");
+        return (card ? card.getBoundingClientRect().width : 220) + 14;
+      };
+      if (prev) prev.onclick = () => { x = Math.max(0, x - step()); track.style.transform = `translateX(${-x}px)`; };
+      if (next) next.onclick = () => {
+        const half = track.scrollWidth / 2;
+        x = Math.min(half - 1, x + step());
+        track.style.transform = `translateX(${-x}px)`;
+      };
+
+      function tick() {
+        if (!document.body.contains(track)) return;
+        if (!paused && !document.hidden) {
+          x += speed;
+          const half = track.scrollWidth / 2;
+          if (half > 0 && x >= half) x -= half;
+          track.style.transform = `translateX(${-x}px)`;
+        }
+        homeMarqueeRaf = requestAnimationFrame(tick);
+      }
+      homeMarqueeRaf = requestAnimationFrame(tick);
+    }
+
     applyLang(lang);
   </script>
 </body>
