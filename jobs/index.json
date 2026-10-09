@@ -1,4 +1,138 @@
 {
   "updatedAt": "2026-10-09",
-  "jobs": []
+  "jobs": [
+    {
+      "titleZh": "市场负责人",
+      "titleEn": "Marketing Manager",
+      "company": "Ropedia",
+      "location": "United States",
+      "descZh": "Physical AI 数据基础设施公司，从 0–1 搭建北美品牌与 B2B 市场体系：定位与视觉、全渠道内容、获客漏斗、白皮书/活动与公关。需要 5–10 年 B2B 科技市场 hands-on 经验，英文可商务沟通。",
+      "descEn": "Physical AI data infrastructure. Build brand and B2B marketing 0→1 in the U.S.: positioning, content, demand gen, events/PR. 5–10 years hands-on B2B tech marketing; business English.",
+      "tags": [
+        "B2B Marketing",
+        "Brand",
+        "Content",
+        "Lead Gen",
+        "Physical AI",
+        "Robotics Data"
+      ],
+      "url": "https://ropedia.com"
+    },
+    {
+      "titleZh": "市场负责人",
+      "titleEn": "Marketing Manager",
+      "company": "Ropedia",
+      "location": "上海 · 徐汇滨江",
+      "descZh": "面向中国市场的市场负责人（徐汇滨江）。从 0–1 搭建品牌与市场体系，B2B 获客与内容；背景优先，英文可后补。",
+      "descEn": "China-market Marketing Manager based in Xuhui Riverside, Shanghai. Build brand and B2B GTM 0→1; strong background first, English can follow.",
+      "tags": [
+        "B2B Marketing",
+        "Brand",
+        "Physical AI",
+        "Shanghai"
+      ],
+      "url": "https://ropedia.com"
+    },
+    {
+      "titleZh": "高级电气工程师",
+      "titleEn": "Senior Electrical Engineer",
+      "company": "Dexmate",
+      "location": "Fremont, CA · Onsite",
+      "descZh": "电源电子、电机驱动、传感器集成与多层 PCB，从原理图到量产。薪资 $100K–$300K。",
+      "descEn": "Power electronics, motor drives, sensor integration, multi-layer PCB — schematic to production. $100K–$300K.",
+      "tags": [
+        "Power Electronics",
+        "Motor Drive",
+        "PCB",
+        "FOC",
+        "BMS",
+        "Robotics"
+      ],
+      "url": "https://jobs.ashbyhq.com/dexmate/4c45348a-24b9-4445-9230-13d44d3eaa52"
+    },
+    {
+      "titleZh": "高级机械工程师",
+      "titleEn": "Senior Mechanical Engineer",
+      "company": "Dexmate",
+      "location": "Fremont, CA · Onsite",
+      "descZh": "人形平台机械子系统：CAD→原型→供应商→FAI→量产，DFM/DFA。薪资 $120K–$300K + equity。",
+      "descEn": "Mechanical subsystems for humanoid platforms: CAD → prototype → suppliers → FAI → production. $120K–$300K + equity.",
+      "tags": [
+        "Mechanical Design",
+        "Actuators",
+        "Harmonic Drive",
+        "DFM",
+        "Humanoid",
+        "CAD"
+      ],
+      "url": "https://jobs.ashbyhq.com/dexmate/40210ea9-d37d-46a2-ab96-c609b047b82c"
+    },
+    {
+      "titleZh": "强化学习工程师",
+      "titleEn": "Reinforcement Learning Engineer",
+      "company": "Dexmate",
+      "location": "Fremont, CA · Onsite",
+      "descZh": "机器人任务 RL 算法与训练管线，仿真与真机，规模化训练。薪资 $120K–$300K。",
+      "descEn": "RL algorithms and training pipelines for robot tasks — sim and real, at scale. $120K–$300K.",
+      "tags": [
+        "Reinforcement Learning",
+        "Robotics",
+        "Isaac Gym",
+        "PyTorch",
+        "Sim-to-Real"
+      ],
+      "url": "https://jobs.ashbyhq.com/dexmate/b96cfe35-f521-4322-90e9-aeaf9aeed3a9"
+    },
+    {
+      "titleZh": "高级机器人控制工程师",
+      "titleEn": "Senior Robotics Controls Engineer",
+      "company": "Dexmate",
+      "location": "Fremont, CA · Onsite",
+      "descZh": "状态估计与全身控制；生产级实时 C++；仿真与真机迭代。薪资 $100K–$300K。",
+      "descEn": "State estimation and whole-body control; production real-time C++; sim and hardware iteration. $100K–$300K.",
+      "tags": [
+        "Controls",
+        "Whole-Body Control",
+        "MPC",
+        "State Estimation",
+        "C++",
+        "Humanoid"
+      ],
+      "url": "https://jobs.ashbyhq.com/dexmate/d0660439-787f-4902-814f-62a2d256fd9f"
+    },
+    {
+      "titleZh": "高级机器人导航工程师",
+      "titleEn": "Senior Robotics Navigation Engineer",
+      "company": "Dexmate",
+      "location": "Fremont, CA · Onsite",
+      "descZh": "人形 3D SLAM、多模态状态估计与实时导航，面向量产部署。薪资 $120K–$300K + equity。",
+      "descEn": "Humanoid 3D SLAM, multi-modal state estimation, real-time navigation for production. $120K–$300K + equity.",
+      "tags": [
+        "SLAM",
+        "Localization",
+        "Navigation",
+        "LiDAR",
+        "VIO",
+        "C++",
+        "ROS"
+      ],
+      "url": "https://jobs.ashbyhq.com/dexmate/d94861c3-f520-45fc-a43b-a05ea9c578c3"
+    },
+    {
+      "titleZh": "幕僚长",
+      "titleEn": "Chief of Staff",
+      "company": "Dexmate",
+      "location": "Fremont, CA · Onsite",
+      "descZh": "直接协助 CEO：战略、运营、融资与投资人沟通；研究与决策材料；运营体系。薪资 $100K–$400K。",
+      "descEn": "Partner with the CEO on strategy, operations, fundraising and investor communications. $100K–$400K.",
+      "tags": [
+        "Chief of Staff",
+        "Operations",
+        "Fundraising",
+        "Strategy",
+        "Robotics Startup"
+      ],
+      "url": "https://jobs.ashbyhq.com/dexmate/11a09429-ea67-490e-ace4-506972360d96"
+    }
+  ]
 }
