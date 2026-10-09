@@ -291,32 +291,52 @@
       return;
     }
     el.className = "jobs-list";
-    const head = `<div class="jobs-list-head" aria-hidden="true">
-      <span></span>
-      <span>${escapeHtml(t("col_role"))}</span>
-      <span>${escapeHtml(t("col_location"))}</span>
-      <span>${escapeHtml(t("col_type"))}</span>
-      <span>${escapeHtml(t("col_comp"))}</span>
-    </div>`;
     const rows = jobs
       .map((j) => {
         const title = pick(j, "titleZh", "titleEn");
         const loc = pick(j, "locationZh", "location") || j.location || "";
         const type = pick(j, "typeZh", "typeEn");
         const figure = j.salary || t("salary_na");
-        return `<a class="job-row" href="${detailHref(j.id)}">
-          <div class="avatar ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div>
-          <div class="job-identity">
-            <div class="job-name">${escapeHtml(title)}<span class="job-ticker">${escapeHtml(ticker(j.company))}</span></div>
-            <div class="job-company-line">${escapeHtml(j.company || "")}</div>
-          </div>
-          <div class="job-cell" title="${escapeHtml(loc)}">${escapeHtml(loc)}</div>
-          <div class="job-cell" title="${escapeHtml(type)}">${escapeHtml(type)}</div>
-          <div class="job-salary" title="${escapeHtml(figure)}">${escapeHtml(figure)}</div>
-        </a>`;
+        const href = detailHref(j.id);
+        return `<tr data-href="${href}">
+          <td><div class="avatar ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div></td>
+          <td>
+            <a class="row-link job-identity" href="${href}">
+              <div class="job-name">${escapeHtml(title)}<span class="job-ticker">${escapeHtml(ticker(j.company))}</span></div>
+              <div class="job-company-line">${escapeHtml(j.company || "")}</div>
+            </a>
+          </td>
+          <td title="${escapeHtml(loc)}">${escapeHtml(loc)}</td>
+          <td title="${escapeHtml(type)}">${escapeHtml(type)}</td>
+          <td title="${escapeHtml(figure)}">${escapeHtml(figure)}</td>
+        </tr>`;
       })
       .join("");
-    el.innerHTML = head + rows;
+    el.innerHTML = `<table class="jobs-table">
+      <colgroup>
+        <col class="c-avatar" />
+        <col class="c-role" />
+        <col class="c-loc" />
+        <col class="c-type" />
+        <col class="c-comp" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th aria-hidden="true"></th>
+          <th>${escapeHtml(t("col_role"))}</th>
+          <th>${escapeHtml(t("col_location"))}</th>
+          <th>${escapeHtml(t("col_type"))}</th>
+          <th>${escapeHtml(t("col_comp"))}</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+    el.querySelectorAll("tbody tr[data-href]").forEach((tr) => {
+      tr.addEventListener("click", (e) => {
+        if (e.target.closest("a")) return;
+        window.location.href = tr.getAttribute("data-href");
+      });
+    });
   }
 
   function renderBoard() {
