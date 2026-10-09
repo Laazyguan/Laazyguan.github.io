@@ -338,3 +338,15 @@ footer {
 .tone-5 { background: linear-gradient(145deg, #d64045, #ff8a8a); }
 .tone-6 { background: linear-gradient(145deg, #0077b6, #90e0ef); }
 .tone-7 { background: linear-gradient(145deg, #5c4d7a, #b8a9d4); }
+
+.home-role-art.has-logo {
+  background: #fff !important;
+  padding: 12px;
+  overflow: hidden;
+}
+.home-role-art.has-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}

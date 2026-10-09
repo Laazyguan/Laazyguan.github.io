@@ -28,6 +28,7 @@
       col_location: "地点",
       col_type: "类型",
       col_comp: "薪酬",
+      search_ph: "搜索岗位、公司、技能…",
     },
     en: {
       page_title: "Open Roles",
@@ -51,6 +52,7 @@
       col_location: "Location",
       col_type: "Type",
       col_comp: "Comp",
+      search_ph: "Search roles, companies, skills…",
     },
   };
 
@@ -112,6 +114,23 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+
+  function logoUrl(job) {
+    const logo = job && job.logo;
+    if (!logo) return "";
+    if (/^https?:\/\//i.test(logo)) return logo;
+    return "../" + String(logo).replace(/^\.\//, "");
+  }
+
+  function markHtml(job, className) {
+    const url = logoUrl(job);
+    const cls = className + (url ? " has-logo" : " " + toneFor(job.id));
+    if (url) {
+      return `<div class="${cls}"><img class="logo-img" src="${escapeHtml(url)}" alt="${escapeHtml(job.company || "")}" loading="lazy" /></div>`;
+    }
+    return `<div class="${cls}">${escapeHtml(initials(job.company))}</div>`;
   }
 
   function detailHref(id) {
@@ -220,10 +239,19 @@
   }
 
   function filteredJobs() {
+    const q = (state.query || "").trim().toLowerCase();
     return state.jobs.filter((j) => {
       if (state.company !== "all" && j.company !== state.company) return false;
       if (state.loc !== "all" && locBucket(j) !== state.loc) return false;
-      return true;
+      if (!q) return true;
+      const hay = [
+        j.titleZh, j.titleEn, j.company, j.location, j.locationZh,
+        j.typeZh, j.typeEn, j.descZh, j.descEn, j.salary,
+        ...(j.tags || []),
+        ...(j.requirementsZh || []),
+        ...(j.requirementsEn || []),
+      ].filter(Boolean).join(" ").toLowerCase();
+      return hay.includes(q);
     });
   }
 
@@ -231,9 +259,8 @@
     const title = pick(j, "titleZh", "titleEn");
     const loc = pick(j, "locationZh", "location") || j.location || "";
     const figure = j.salary || loc || t("salary_na");
-    const tone = toneFor(j.id);
     return `<a class="trend-card" href="${detailHref(j.id)}">
-          <div class="trend-art ${tone}">${escapeHtml(initials(j.company))}</div>
+          ${markHtml(j, "trend-art")}
           <div class="trend-meta">
             <div class="trend-rank">#${i + 1}</div>
             <div class="trend-title">${escapeHtml(title)}</div>
@@ -280,7 +307,7 @@
           const type = pick(j, "typeZh", "typeEn");
           const figure = j.salary || loc || t("salary_na");
           return `<a class="job-card" href="${detailHref(j.id)}">
-            <div class="avatar ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div>
+            ${markHtml(j, "avatar")}
             <div class="job-card-title">${escapeHtml(title)}</div>
             <div class="job-card-meta">${escapeHtml(j.company || "")} · ${escapeHtml(type)}</div>
             <div class="job-card-meta">${escapeHtml(loc)}</div>
@@ -299,7 +326,7 @@
         const figure = j.salary || t("salary_na");
         const href = detailHref(j.id);
         return `<tr data-href="${href}">
-          <td><div class="avatar ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div></td>
+          <td>${markHtml(j, "avatar")}</td>
           <td>
             <a class="row-link job-identity" href="${href}">
               <div class="job-name">${escapeHtml(title)}<span class="job-ticker">${escapeHtml(ticker(j.company))}</span></div>
@@ -391,6 +418,21 @@
   }
 
   function wireBoardControls() {
+
+    const search = document.getElementById("roles-search");
+    if (search) {
+      search.value = state.query || "";
+      search.addEventListener("input", () => {
+        state.query = search.value;
+        renderBoard();
+      });
+    }
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "/" && document.activeElement !== search && !(document.activeElement && ["INPUT","TEXTAREA"].includes(document.activeElement.tagName))) {
+        e.preventDefault();
+        if (search) search.focus();
+      }
+    });
     document.querySelectorAll("[data-lang-btn]").forEach((btn) => {
       btn.addEventListener("click", () => {
         setLang(btn.getAttribute("data-lang-btn"));
@@ -446,6 +488,8 @@
     toneFor,
     escapeHtml,
     detailHref,
+    logoUrl,
+    markHtml,
     showToast,
     loadJobs,
     i18n,

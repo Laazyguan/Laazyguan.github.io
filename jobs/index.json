@@ -46,7 +46,8 @@
       "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
       "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
       "externalUrl": "https://ropedia.com",
-      "trending": true
+      "trending": true,
+      "logo": "assets/companies/ropedia.png"
     },
     {
       "id": "ropedia-mm-sh",
@@ -86,7 +87,8 @@
       "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递。",
       "applyHintEn": "Apply via this page to Xuezheng (Jeffrey).",
       "externalUrl": "https://ropedia.com",
-      "trending": false
+      "trending": false,
+      "logo": "assets/companies/ropedia.png"
     },
     {
       "id": "dexmate-ee",
@@ -128,7 +130,8 @@
       "applyHintZh": "通过本页投递；需要可附作品集或过往量产案例。",
       "applyHintEn": "Apply here; include portfolio or shipped-product examples if available.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/4c45348a-24b9-4445-9230-13d44d3eaa52",
-      "trending": true
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
     },
     {
       "id": "dexmate-me",
@@ -169,7 +172,8 @@
       "applyHintZh": "通过本页投递。",
       "applyHintEn": "Apply via this page.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/40210ea9-d37d-46a2-ab96-c609b047b82c",
-      "trending": true
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
     },
     {
       "id": "dexmate-rl",
@@ -218,7 +222,8 @@
       "applyHintZh": "通过本页投递。",
       "applyHintEn": "Apply via this page.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/b96cfe35-f521-4322-90e9-aeaf9aeed3a9",
-      "trending": true
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
     },
     {
       "id": "dexmate-controls",
@@ -269,7 +274,8 @@
       "applyHintZh": "通过本页投递。",
       "applyHintEn": "Apply via this page.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/d0660439-787f-4902-814f-62a2d256fd9f",
-      "trending": false
+      "trending": false,
+      "logo": "assets/companies/dexmate.png"
     },
     {
       "id": "dexmate-nav",
@@ -321,7 +327,8 @@
       "applyHintZh": "通过本页投递。",
       "applyHintEn": "Apply via this page.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/d94861c3-f520-45fc-a43b-a05ea9c578c3",
-      "trending": true
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
     },
     {
       "id": "dexmate-cos",
@@ -367,7 +374,8 @@
       "applyHintZh": "通过本页投递。",
       "applyHintEn": "Apply via this page.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/11a09429-ea67-490e-ace4-506972360d96",
-      "trending": false
+      "trending": false,
+      "logo": "assets/companies/dexmate.png"
     }
   ]
 }

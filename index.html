@@ -169,6 +169,10 @@
     };
 
     const TONES = ["tone-0","tone-1","tone-2","tone-3","tone-4","tone-5","tone-6","tone-7"];
+    function logoSrc(job) {
+      if (!job || !job.logo) return "";
+      return job.logo;
+    }
     function toneFor(id) {
       let h = 0;
       const s = String(id || "");
@@ -226,7 +230,9 @@
           const figure = j.salary || loc || i18n[lang].salary_na;
           const attrs = hidden ? ' tabindex="-1" aria-hidden="true"' : '';
           return `<a class="home-role-card" href="roles/detail.html?id=${encodeURIComponent(j.id)}"${attrs}>
-            <div class="home-role-art ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div>
+            ${logoSrc(j)
+              ? `<div class="home-role-art has-logo"><img src="${escapeHtml(logoSrc(j))}" alt="${escapeHtml(j.company||"")}" /></div>`
+              : `<div class="home-role-art ${toneFor(j.id)}">${escapeHtml(initials(j.company))}</div>`}
             <div class="home-role-body">
               <div class="home-role-title">${escapeHtml(title)}</div>
               <div class="home-role-sub">${escapeHtml(j.company || "")} · ${escapeHtml(loc)}</div>

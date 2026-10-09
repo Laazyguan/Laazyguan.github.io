@@ -103,7 +103,7 @@
 
       <div class="detail-header">
         <div class="detail-identity">
-          <div class="avatar ${A.toneFor(job.id)}">${A.escapeHtml(A.initials(job.company))}</div>
+          ${A.markHtml(job, "avatar")}
           <div>
             <h1 class="detail-title">${A.escapeHtml(title)}</h1>
             <div class="detail-company">${A.escapeHtml(job.company || "")}${job.companyUrl ? ` · <a href="${A.escapeHtml(job.companyUrl)}" target="_blank" rel="noopener">${A.escapeHtml((job.companyUrl || "").replace(/^https?:\/\//, ""))}</a>` : ""}</div>

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Nunito:wght@700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/launchpad.css?v=3" />
+  <link rel="stylesheet" href="css/launchpad.css?v=4" />
 </head>
 <body data-page="board">
   <div class="app-shell">
@@ -60,7 +60,12 @@
 
       <section class="section">
         <div class="toolbar">
-          <div>
+          <div class="toolbar-left">
+            <label class="search-field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <input id="roles-search" type="search" placeholder="Search roles, companies, skills…" autocomplete="off" />
+              <kbd>/</kbd>
+            </label>
             <div class="chips" id="company-chips"></div>
             <div class="chips" id="loc-chips" style="margin-top:0.5rem"></div>
           </div>
@@ -76,6 +81,6 @@
       </section>
     </main>
   </div>
-  <script src="js/app.js?v=3"></script>
+  <script src="js/app.js?v=4"></script>
 </body>
 </html>

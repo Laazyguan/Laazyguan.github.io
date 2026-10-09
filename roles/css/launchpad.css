@@ -382,6 +382,70 @@ img { max-width: 100%; display: block; }
   padding-bottom: 0.35rem;
   background: transparent;
 }
+.toolbar-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  min-width: 0;
+  flex: 1;
+}
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  max-width: 420px;
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--pill);
+  padding: 0.55rem 0.85rem;
+  color: var(--ink-muted);
+}
+.search-field:focus-within {
+  border-color: var(--line-strong);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+}
+.search-field svg { width: 16px; height: 16px; flex-shrink: 0; }
+.search-field input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  min-width: 0;
+}
+.search-field kbd {
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  color: var(--ink-faint);
+  background: var(--surface-2);
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: inherit;
+  background: #fff;
+}
+.trend-art.has-logo,
+.avatar.has-logo,
+.jobs-table .avatar.has-logo,
+.job-card .avatar.has-logo {
+  background: #fff !important;
+  padding: 4px;
+  overflow: hidden;
+}
+.trend-art.has-logo { padding: 14px; }
+
 .toolbar-right {
   display: flex;
   align-items: center;
