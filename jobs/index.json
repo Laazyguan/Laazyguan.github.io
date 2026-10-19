@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-19",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -366,6 +366,56 @@
       "applyHintZh": "通过本页投递。",
       "applyHintEn": "Apply via this page.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/d94861c3-f520-45fc-a43b-a05ea9c578c3",
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
+    },
+    {
+      "id": "dexmate-systems",
+      "titleZh": "机器人系统工程师",
+      "titleEn": "Robotics Systems Engineer",
+      "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
+      "location": "Fremont, CA · Onsite",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$100K–$300K",
+      "descZh": "机器人平台硬件/软件/AI 系统集成与验证，从原型到量产部署；系统架构、bring-up、测试框架与跨域 debug",
+      "descEn": "Hardware / software / AI systems integration and validation for the robot platform — prototype through production; system architecture, bring-up, test frameworks, and cross-domain debug",
+      "requirementsZh": [
+        "机器人 / 机械 / 电气 / 计算机 / 机电相关本科 + 5 年工业经验，或硕士 + 3 年",
+        "3+ 年机器人系统集成、调试与验证（真机）",
+        "熟练 C++ / Python；系统级编程、自动化与数据分析",
+        "理解机器人系统架构（算力 / 传感 / 执行 / 控制）",
+        "通信协议经验：CAN / EtherCAT / Ethernet / 串口",
+        "Linux 与嵌入式调试；硬件 bring-up 与机电系统验证"
+      ],
+      "requirementsEn": [
+        "BS in Robotics / ME / EE / CE / Mechatronics (or related) + 5 years industrial, or MS + 3 years",
+        "3+ years hands-on robotic system integration, commissioning, and validation",
+        "Strong C++ and Python for system-level programming, automation, and data analysis",
+        "Deep understanding of robot system architecture (compute, sensing, actuation, control)",
+        "Communication protocols: CAN, EtherCAT, Ethernet, serial",
+        "Linux and embedded debugging; hardware bring-up and electromechanical validation"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Systems Engineering",
+        "Robot Integration",
+        "C++",
+        "Python",
+        "CAN",
+        "EtherCAT",
+        "Bring-up",
+        "Hardware",
+        "Robotics"
+      ],
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/97dfc1a1-287f-4ef5-a7b5-93a96999c0d8",
       "trending": true,
       "logo": "assets/companies/dexmate.png"
     },
