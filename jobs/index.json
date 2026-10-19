@@ -481,6 +481,67 @@
       "logo": "assets/companies/dexmate.png"
     },
     {
+      "id": "dexmate-eng-lead",
+      "titleZh": "机器人工程负责人",
+      "titleEn": "Robotics Engineering Lead",
+      "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
+      "location": "Fremont, CA · Onsite",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$200K–$400K",
+      "descZh": "负责机器人侧工程组织——固件、控制与规划、遥操作、现场支持与培训；仍 hands-on；跨机械/电气/固件根因与量产机持续改进",
+      "descEn": "Lead the robot-side engineering org — firmware, controls & planning, teleoperation, field support and training; stay hands-on; drive cross-domain (mech/EE/firmware) root-cause and continuous improvement on production robots",
+      "requirementsZh": [
+        "8+ 年机器人工程，扎实经典基础：动力学、运动学、控制理论（阻抗/导纳、全身控制）与状态估计",
+        "有量产硬件产品上线后经验：现场根因分析、固件发布与部署生命周期内持续改进（非仅预研）",
+        "仍 hands-on：定期编写与评审生产级固件/控制代码，而非只做架构文档",
+        "深度嵌入式/实时软件：RTOS 或 PREEMPT_RT、传感/执行驱动、实时调度与软硬件协同设计；安全关键行为（故障检测、降级、安全态）",
+        "机器人控制与规划：行走/操作/全身控制或同等领域；能在控制、感知与高层规划/AI 交界工作",
+        "跨域硬件理解（机械机构、PCB/电子、执行器、传感与布线），能主导跨机械/电气/固件根因并推动设计/工艺纠正",
+        "遥操作系统经验：低延迟远程操控、操作界面与会话数据管道",
+        "建设/扩展客户向技术支持（分诊、升级路径）与工程/现场培训；招聘并培养固件、控制与现场向工程师"
+      ],
+      "requirementsEn": [
+        "8+ years robotics engineering with a strong classical foundation: dynamics, kinematics, control theory (impedance/admittance, whole-body control), and state estimation",
+        "Owned a shipped hardware product post-launch: field root-cause, firmware releases, and incremental improvement over the deployed life — not only pre-launch development",
+        "Still hands-on: writes and reviews production firmware/controls code regularly, not just architecture docs",
+        "Deep embedded/real-time software: RTOS or PREEMPT_RT, sensor/actuator drivers, real-time scheduling, hardware–software co-design; safety-critical behavior (fault detection, graceful degradation, safe-state)",
+        "Robot control and planning: locomotion, manipulation, whole-body control, or equivalent; comfortable at the controls / perception / higher-level planning–AI interface",
+        "Cross-disciplinary hardware literacy (mechanisms, PCB/electronics, actuators, sensors, wiring) to lead mech/EE/firmware root-cause and drive design or process corrective actions",
+        "Teleoperation experience: low-latency remote control, operator interfaces, and data pipelines from sessions to training data",
+        "Built or scaled customer-facing technical support (triage, escalation) and technical training; track record hiring/developing firmware, controls, and field-facing engineers"
+      ],
+      "niceZh": [
+        "人形或其他复杂多自由度机器人经验",
+        "创业公司领导经验，理想为早期机器人工程负责人（从小团队扩展）",
+        "熟悉机器人常见算力/网络栈（如 Jetson 级边缘算力、EtherCAT、实时 Linux）"
+      ],
+      "niceEn": [
+        "Humanoid or other complex multi-DOF robotic systems",
+        "Prior startup leadership, ideally as an early robotics engineering leader scaling from single digits",
+        "Familiarity with typical robot compute/networking stacks (e.g. Jetson-class edge compute, EtherCAT, real-time Linux)"
+      ],
+      "tags": [
+        "Engineering Lead",
+        "Firmware",
+        "Controls",
+        "Whole-Body Control",
+        "Teleoperation",
+        "Field Support",
+        "Robotics",
+        "Hands-on"
+      ],
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/a33bc248-d3e5-4cec-9da5-63e35314663c",
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
+    },
+    {
       "id": "dexmate-cos",
       "titleZh": "幕僚长",
       "titleEn": "Chief of Staff",
