@@ -420,6 +420,67 @@
       "logo": "assets/companies/dexmate.png"
     },
     {
+      "id": "dexmate-firmware",
+      "titleZh": "高级机器人固件工程师",
+      "titleEn": "Senior Firmware Engineer, Robotics",
+      "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
+      "location": "Fremont, CA · Onsite",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$100K–$300K + equity",
+      "descZh": "通用机器人底层固件：执行器/传感/电源与实时通信；MCU bring-up、电机控制（含 FOC）、EtherCAT/CAN、从原型到量产",
+      "descEn": "Low-level firmware for general-purpose robots — actuators, sensing, power, and real-time comms; MCU bring-up, motor control (including FOC), EtherCAT/CAN, prototype through production",
+      "requirementsZh": [
+        "5+ 年嵌入式固件（机器人 / 汽车 / 工控 / 消费电子），含量产交付经验",
+        "熟练 C/C++（裸机与 RTOS）；中断、DMA、定时器、调度与实时行为",
+        "多款现代 MCU 固件经验（如 ARM Cortex-M、TI C2000、STM32、Nordic nRF）",
+        "电机/执行器固件：FOC、电流/力矩/速度/位置环、编码器与故障处理",
+        "驱动级通信：EtherCAT、CAN/CAN FD、SPI、I2C、UART",
+        "板级 bring-up 与外设驱动；能读原理图/PCB/数据手册；JTAG/SWD、示波器、逻辑分析仪"
+      ],
+      "requirementsEn": [
+        "5+ years professional embedded firmware (robotics / automotive / industrial / consumer), including shipping production products",
+        "Strong C/C++ on bare-metal and RTOS; interrupts, DMA, timers, scheduling, real-time behavior",
+        "Firmware across modern MCU families (e.g. ARM Cortex-M, TI C2000, STM32, Nordic nRF)",
+        "Motor/actuator firmware: FOC, current/torque/velocity/position loops, encoders, fault handling",
+        "Driver-level protocols: EtherCAT, CAN/CAN FD, SPI, I2C, UART",
+        "Board bring-up and peripheral drivers; read schematics/PCB/datasheets; JTAG/SWD, scopes, logic/protocol analyzers"
+      ],
+      "niceZh": [
+        "固件从原型扩到数百/数千台量产；bootloader / 安全升级 / 回滚 / 现场诊断",
+        "功能安全或嵌入式安全（如 ISO 26262、IEC 61508、ISO 13849、IEC 62443）",
+        "Python 做固件工具/测试自动化/HIL；EtherCAT master/slave（如 SOEM）",
+        "电源电子固件（BMS / 逆变器 / DC-DC）；垂直整合机器人或硬件创业公司经验"
+      ],
+      "niceEn": [
+        "Scaling firmware prototype→production across hundreds/thousands of units; bootloaders, secure update/rollback, field diagnostics",
+        "Functional safety or embedded security (e.g. ISO 26262, IEC 61508, ISO 13849, IEC 62443)",
+        "Python for firmware tooling / test automation / HIL; EtherCAT master/slave stacks (e.g. SOEM)",
+        "Power-electronics firmware (BMS / inverters / DC-DC); vertically integrated robotics or hardware startup"
+      ],
+      "tags": [
+        "Firmware",
+        "Embedded",
+        "C/C++",
+        "RTOS",
+        "Motor Control",
+        "FOC",
+        "EtherCAT",
+        "CAN",
+        "Robotics",
+        "Bring-up"
+      ],
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/2714dd5d-22e9-4f8e-a8e9-651c0972254f",
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
+    },
+    {
       "id": "dexmate-cos",
       "titleZh": "幕僚长",
       "titleEn": "Chief of Staff",
