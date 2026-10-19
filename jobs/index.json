@@ -587,6 +587,154 @@
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/11a09429-ea67-490e-ace4-506972360d96",
       "trending": false,
       "logo": "assets/companies/dexmate.png"
+    },
+    {
+      "company": "Dotmo",
+      "companyUrl": "https://www.dotmo.com/",
+      "companyBlurbZh": "Snap 于 2026 年 6 月剥离的独立公司，做能生成交互式游戏体验的 AI 模型（面向游戏的世界模型）",
+      "companyBlurbEn": "Independent company spun out of Snap in June 2026 — AI models that generate interactive game experiences (world models for gaming)",
+      "location": "Culver City, CA",
+      "locationZh": "加州 Culver City",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "niceZh": [],
+      "niceEn": [],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.dotmo.com/",
+      "logo": "assets/companies/dotmo.png",
+      "id": "dotmo-research",
+      "titleZh": "研究科学家 / 研究工程师 / 机器学习工程师",
+      "titleEn": "Research Scientist / Research Engineer / Machine Learning Engineer",
+      "descZh": "基础模型训练、微调、改进与加速；或有强论文记录",
+      "descEn": "Foundation-model training, fine-tuning, improvement and acceleration — or a strong publication track record",
+      "requirementsZh": [
+        "基础模型训练、微调、改进与加速经验",
+        "或有强论文记录"
+      ],
+      "requirementsEn": [
+        "Experience with foundation-model training, fine-tuning, improvement and acceleration",
+        "Or a strong publication track record"
+      ],
+      "tags": [
+        "Research",
+        "Foundation Models",
+        "ML",
+        "Fine-tuning",
+        "Publications"
+      ],
+      "trending": true
+    },
+    {
+      "company": "Dotmo",
+      "companyUrl": "https://www.dotmo.com/",
+      "companyBlurbZh": "Snap 于 2026 年 6 月剥离的独立公司，做能生成交互式游戏体验的 AI 模型（面向游戏的世界模型）",
+      "companyBlurbEn": "Independent company spun out of Snap in June 2026 — AI models that generate interactive game experiences (world models for gaming)",
+      "location": "Culver City, CA",
+      "locationZh": "加州 Culver City",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "niceZh": [],
+      "niceEn": [],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.dotmo.com/",
+      "logo": "assets/companies/dotmo.png",
+      "id": "dotmo-ai-swe",
+      "titleZh": "AI 软件工程师",
+      "titleEn": "AI Software Engineer",
+      "descZh": "用 AI agents 构建；可扩展系统、内部工具、系统设计与安全",
+      "descEn": "Build with AI agents — scalable systems, internal tools, system design and security",
+      "requirementsZh": [
+        "用 AI agents 构建产品与工具",
+        "可扩展系统、内部工具、系统设计与安全经验"
+      ],
+      "requirementsEn": [
+        "Build with AI agents",
+        "Experience with scalable systems, internal tools, system design and security"
+      ],
+      "tags": [
+        "Software Engineering",
+        "AI Agents",
+        "Scalable Systems",
+        "System Design",
+        "Security"
+      ],
+      "trending": true
+    },
+    {
+      "company": "Dotmo",
+      "companyUrl": "https://www.dotmo.com/",
+      "companyBlurbZh": "Snap 于 2026 年 6 月剥离的独立公司，做能生成交互式游戏体验的 AI 模型（面向游戏的世界模型）",
+      "companyBlurbEn": "Independent company spun out of Snap in June 2026 — AI models that generate interactive game experiences (world models for gaming)",
+      "location": "Culver City, CA",
+      "locationZh": "加州 Culver City",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "niceZh": [],
+      "niceEn": [],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.dotmo.com/",
+      "logo": "assets/companies/dotmo.png",
+      "id": "dotmo-game-design",
+      "titleZh": "游戏设计师",
+      "titleEn": "Game Designer",
+      "descZh": "为交互式 AI 游戏体验做游戏设计",
+      "descEn": "Game design for interactive AI game experiences",
+      "requirementsZh": [
+        "为交互式 AI 游戏体验做游戏设计"
+      ],
+      "requirementsEn": [
+        "Game design for interactive AI game experiences"
+      ],
+      "tags": [
+        "Game Design",
+        "Interactive Entertainment",
+        "AI Gaming"
+      ],
+      "trending": false
+    },
+    {
+      "company": "Dotmo",
+      "companyUrl": "https://www.dotmo.com/",
+      "companyBlurbZh": "Snap 于 2026 年 6 月剥离的独立公司，做能生成交互式游戏体验的 AI 模型（面向游戏的世界模型）",
+      "companyBlurbEn": "Independent company spun out of Snap in June 2026 — AI models that generate interactive game experiences (world models for gaming)",
+      "location": "Culver City, CA",
+      "locationZh": "加州 Culver City",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "niceZh": [],
+      "niceEn": [],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.dotmo.com/",
+      "logo": "assets/companies/dotmo.png",
+      "id": "dotmo-kernel",
+      "titleZh": "内核级优化工程师",
+      "titleEn": "Kernel-level Optimization Engineer",
+      "descZh": "CUDA / Triton 等，优化网络在硬件加速器上高效运行",
+      "descEn": "CUDA / Triton (and similar) — make networks run efficiently on hardware accelerators",
+      "requirementsZh": [
+        "CUDA / Triton（或同类）经验",
+        "优化网络在硬件加速器上高效运行"
+      ],
+      "requirementsEn": [
+        "CUDA / Triton (or similar) experience",
+        "Make networks run efficiently on hardware accelerators"
+      ],
+      "tags": [
+        "CUDA",
+        "Triton",
+        "Kernel Optimization",
+        "GPU",
+        "Performance"
+      ],
+      "trending": true
     }
   ]
 }
