@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-21",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -735,6 +735,823 @@
         "Performance"
       ],
       "trending": true
+    },
+    {
+      "id": "apodex-data-pm",
+      "titleZh": "数据项目经理",
+      "titleEn": "Data Program Manager",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore",
+      "locationZh": "新加坡",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "数据 sourcing、标注与供应商管理；项目计划、QA、vendor 谈判",
+      "descEn": "Data sourcing, labeling, and vendor management; program plans, QA, vendor negotiation",
+      "requirementsZh": [
+        "数据 sourcing、标注与供应商管理",
+        "项目计划、QA、vendor 谈判"
+      ],
+      "requirementsEn": [
+        "Data sourcing, labeling, and vendor management",
+        "Program plans, QA, vendor negotiation"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Data Operations",
+        "Labeling",
+        "Vendor Management",
+        "LLM Data"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": true,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-pretrain-data",
+      "titleZh": "预训练数据基建工程师",
+      "titleEn": "Pretraining Data Infrastructure Engineer",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "Ray/Spark 大规模数据处理；清洗/去重；tokenization 与高吞吐喂数",
+      "descEn": "Large-scale Ray/Spark data processing; cleaning/dedup; tokenization and high-throughput feeding",
+      "requirementsZh": [
+        "Ray/Spark 大规模数据处理",
+        "清洗/去重、tokenization 与高吞吐喂数"
+      ],
+      "requirementsEn": [
+        "Large-scale Ray/Spark data processing",
+        "Cleaning/dedup, tokenization, high-throughput feeding"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Spark",
+        "Ray",
+        "Data Pipeline",
+        "Pretraining",
+        "Python"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": true,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-model-arch",
+      "titleZh": "软件工程师 · 模型架构",
+      "titleEn": "Software Engineer, Model Architecture",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "Attention/MoE 等模型结构实现；Megatron/HF/SGLang 集成",
+      "descEn": "Implement Attention/MoE and related structures; integrate Megatron/HF/SGLang",
+      "requirementsZh": [
+        "Attention/MoE 等模型结构实现",
+        "Megatron/HF/SGLang 集成"
+      ],
+      "requirementsEn": [
+        "Implement Attention/MoE and related structures",
+        "Integrate Megatron/HF/SGLang"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Transformer",
+        "MoE",
+        "PyTorch",
+        "Megatron",
+        "Model Architecture"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": true,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-ai-kernels",
+      "titleZh": "性能工程师 · AI Kernels",
+      "titleEn": "Performance Engineer, AI Kernels",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "Attention/MoE 等 kernel；Triton/CUDA/HIP 加速",
+      "descEn": "Attention/MoE kernels; accelerate with Triton/CUDA/HIP",
+      "requirementsZh": [
+        "Attention/MoE 等 kernel",
+        "Triton/CUDA/HIP 加速"
+      ],
+      "requirementsEn": [
+        "Attention/MoE kernels",
+        "Accelerate with Triton/CUDA/HIP"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "CUDA",
+        "Triton",
+        "Kernels",
+        "GPU",
+        "Performance"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": true,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-train-infra",
+      "titleZh": "软件工程师 · 训练基础设施",
+      "titleEn": "Software Engineer, Training Infrastructure",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "分布式训练（TP/CP/PP/EP）、checkpoint、恢复",
+      "descEn": "Distributed training (TP/CP/PP/EP), checkpointing, recovery",
+      "requirementsZh": [
+        "分布式训练（TP/CP/PP/EP）",
+        "checkpoint 与恢复"
+      ],
+      "requirementsEn": [
+        "Distributed training (TP/CP/PP/EP)",
+        "Checkpointing and recovery"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Distributed Training",
+        "Megatron",
+        "Checkpoint",
+        "PyTorch"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": true,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-infer-infra",
+      "titleZh": "软件工程师 · 推理基础设施",
+      "titleEn": "Software Engineer, Inference Infrastructure",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "serving、KV cache、continuous batching；SGLang/vLLM",
+      "descEn": "Serving, KV cache, continuous batching; SGLang/vLLM",
+      "requirementsZh": [
+        "serving、KV cache、continuous batching",
+        "SGLang/vLLM"
+      ],
+      "requirementsEn": [
+        "Serving, KV cache, continuous batching",
+        "SGLang/vLLM"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Inference",
+        "KV Cache",
+        "Serving",
+        "vLLM",
+        "SGLang"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": true,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-ai-reliability",
+      "titleZh": "软件工程师 · AI 可靠性",
+      "titleEn": "Software Engineer, AI Reliability",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "训练/推理数值稳定、诊断与端到端性能归因",
+      "descEn": "Numerical stability for train/infer; diagnostics and end-to-end performance attribution",
+      "requirementsZh": [
+        "训练/推理数值稳定",
+        "诊断与端到端性能归因"
+      ],
+      "requirementsEn": [
+        "Numerical stability for train/infer",
+        "Diagnostics and end-to-end performance attribution"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Reliability",
+        "Numerical Stability",
+        "Profiling",
+        "Diagnostics"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-rl-systems",
+      "titleZh": "软件工程师 · RL 系统",
+      "titleEn": "Software Engineer, RL Systems",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "RL 角色适配、权重同步与一致性",
+      "descEn": "RL role adaptation, weight sync and consistency",
+      "requirementsZh": [
+        "RL 角色适配",
+        "权重同步与一致性"
+      ],
+      "requirementsEn": [
+        "RL role adaptation",
+        "Weight sync and consistency"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "RL",
+        "Weight Sync",
+        "Distributed Runtime",
+        "GPU"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-rl-algo",
+      "titleZh": "软件工程师 · 强化学习算法",
+      "titleEn": "Software Engineer, Reinforcement Learning Algorithms",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "GRPO/PPO 等算法、rollout 与状态恢复",
+      "descEn": "GRPO/PPO and related algorithms; rollout and state recovery",
+      "requirementsZh": [
+        "GRPO/PPO 等算法",
+        "rollout 与状态恢复"
+      ],
+      "requirementsEn": [
+        "GRPO/PPO and related algorithms",
+        "Rollout and state recovery"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "RL Algorithms",
+        "PPO",
+        "GRPO",
+        "Ray",
+        "Rollout"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-rl-env",
+      "titleZh": "软件工程师 · RL 环境",
+      "titleEn": "Software Engineer, RL Environments",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "task harness、trajectory、reward/verifier",
+      "descEn": "Task harness, trajectories, reward/verifier",
+      "requirementsZh": [
+        "task harness、trajectory",
+        "reward/verifier"
+      ],
+      "requirementsEn": [
+        "Task harness and trajectories",
+        "Reward/verifier"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "RL Environments",
+        "Agents",
+        "Reward",
+        "Verification"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-virt",
+      "titleZh": "系统软件工程师 · 虚拟化",
+      "titleEn": "Systems Software Engineer, Virtualization",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "CPU/GPU sandbox、隔离与快照",
+      "descEn": "CPU/GPU sandbox, isolation, and snapshots",
+      "requirementsZh": [
+        "CPU/GPU sandbox",
+        "隔离与快照"
+      ],
+      "requirementsEn": [
+        "CPU/GPU sandbox",
+        "Isolation and snapshots"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Virtualization",
+        "Sandbox",
+        "Containers",
+        "GPU Cloud"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-compute",
+      "titleZh": "软件工程师 · 计算基础设施",
+      "titleEn": "Software Engineer, Compute Infrastructure",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "作业调度、GPU 集群、EFA/NCCL",
+      "descEn": "Job scheduling, GPU clusters, EFA/NCCL",
+      "requirementsZh": [
+        "作业调度、GPU 集群",
+        "EFA/NCCL"
+      ],
+      "requirementsEn": [
+        "Job scheduling and GPU clusters",
+        "EFA/NCCL"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Kubernetes",
+        "GPU Cluster",
+        "Scheduling",
+        "NCCL"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-data-infra",
+      "titleZh": "软件工程师 · 数据基础设施",
+      "titleEn": "Software Engineer, Data Infrastructure",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "数据平台、分布式存储与 I/O",
+      "descEn": "Data platform, distributed storage and I/O",
+      "requirementsZh": [
+        "数据平台",
+        "分布式存储与 I/O"
+      ],
+      "requirementsEn": [
+        "Data platform",
+        "Distributed storage and I/O"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Data Platform",
+        "Object Storage",
+        "Ray",
+        "Spark"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-sre",
+      "titleZh": "站点可靠性工程师",
+      "titleEn": "Site Reliability Engineer",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "可观测性、恢复与生产可靠性",
+      "descEn": "Observability, recovery, and production reliability",
+      "requirementsZh": [
+        "可观测性与恢复",
+        "生产可靠性"
+      ],
+      "requirementsEn": [
+        "Observability and recovery",
+        "Production reliability"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "SRE",
+        "Observability",
+        "Kubernetes",
+        "Reliability"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-cloud",
+      "titleZh": "云平台工程师",
+      "titleEn": "Cloud Platform Engineer",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "访问治理、IaC、成本运营",
+      "descEn": "Access governance, IaC, cost operations",
+      "requirementsZh": [
+        "访问治理与 IaC",
+        "成本运营"
+      ],
+      "requirementsEn": [
+        "Access governance and IaC",
+        "Cost operations"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "IAM",
+        "Terraform",
+        "FinOps",
+        "Cloud"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-research-plat",
+      "titleZh": "软件工程师 · 研究平台",
+      "titleEn": "Software Engineer, Research Platform",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "研究自动化、实验编排与 research agents",
+      "descEn": "Research automation, experiment orchestration, research agents",
+      "requirementsZh": [
+        "研究自动化与实验编排",
+        "research agents"
+      ],
+      "requirementsEn": [
+        "Research automation and experiment orchestration",
+        "Research agents"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Research Platform",
+        "Experiment Orchestration",
+        "Automation"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": true,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-eval-infra",
+      "titleZh": "软件工程师 · 评测基础设施",
+      "titleEn": "Software Engineer, Evaluation Infrastructure",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "评测流水线、benchmark 与证据管理",
+      "descEn": "Evaluation pipelines, benchmarks, and evidence management",
+      "requirementsZh": [
+        "评测流水线与 benchmark",
+        "证据管理"
+      ],
+      "requirementsEn": [
+        "Evaluation pipelines and benchmarks",
+        "Evidence management"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Evaluation",
+        "Benchmarking",
+        "Pipelines"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-pretrain-algo",
+      "titleZh": "预训练算法工程师",
+      "titleEn": "Pretraining Algorithm Engineer",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "模型 recipe、scaling laws、架构共设计",
+      "descEn": "Model recipes, scaling laws, co-design of architectures",
+      "requirementsZh": [
+        "模型 recipe 与 scaling laws",
+        "架构共设计"
+      ],
+      "requirementsEn": [
+        "Model recipes and scaling laws",
+        "Architecture co-design"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Pretraining",
+        "Scaling Laws",
+        "Megatron",
+        "Research"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": true,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-coding",
+      "titleZh": "研究工程师/科学家 · Coding 能力",
+      "titleEn": "Research Engineer / Research Scientist, Coding Capability",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "coding 能力数据与 post-training（SFT/RL）",
+      "descEn": "Coding-capability data and post-training (SFT/RL)",
+      "requirementsZh": [
+        "coding 能力数据",
+        "post-training（SFT/RL）"
+      ],
+      "requirementsEn": [
+        "Coding-capability data",
+        "Post-training (SFT/RL)"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Coding Agents",
+        "Post-Training",
+        "SFT",
+        "RL",
+        "Research"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": true,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-llm-eval",
+      "titleZh": "研究工程师/科学家 · LLM 与 Agent 评测",
+      "titleEn": "Research Engineer / Research Scientist, LLM & Agent Evaluation",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore / United States",
+      "locationZh": "新加坡 / 美国",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "benchmark 设计、自动打分与能力诊断",
+      "descEn": "Benchmark design, auto-scoring, and capability diagnosis",
+      "requirementsZh": [
+        "benchmark 设计与自动打分",
+        "能力诊断"
+      ],
+      "requirementsEn": [
+        "Benchmark design and auto-scoring",
+        "Capability diagnosis"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Evaluation",
+        "Benchmark Design",
+        "Agents",
+        "Research"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-security",
+      "titleZh": "高级安全工程师",
+      "titleEn": "Senior Security Engineer",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore",
+      "locationZh": "新加坡",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "AI 安全与合规（SOC2/ISO27001 等）",
+      "descEn": "AI security and compliance (SOC2/ISO27001, etc.)",
+      "requirementsZh": [
+        "AI 安全与合规",
+        "SOC2/ISO27001 等"
+      ],
+      "requirementsEn": [
+        "AI security and compliance",
+        "SOC2/ISO27001, etc."
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Security",
+        "Compliance",
+        "Cloud Security"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-investigations",
+      "titleZh": "内控与调查专员",
+      "titleEn": "Internal Control & Investigations Specialist",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Singapore",
+      "locationZh": "新加坡",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "内部调查、内控与风险治理（需英中双语）",
+      "descEn": "Internal investigations, controls, and risk governance (English + Chinese bilingual required)",
+      "requirementsZh": [
+        "内部调查、内控与风险治理",
+        "需英中双语"
+      ],
+      "requirementsEn": [
+        "Internal investigations, controls, and risk governance",
+        "English + Chinese bilingual required"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Investigations",
+        "Internal Controls",
+        "Risk",
+        "Governance"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.apodex.com/",
+      "trending": false,
+      "logo": "assets/companies/apodex.png"
     }
   ]
 }
