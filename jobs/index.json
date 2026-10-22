@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-22",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -1551,6 +1551,51 @@
       "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
       "externalUrl": "https://www.apodex.com/",
       "trending": false,
+      "logo": "assets/companies/apodex.png"
+    },
+    {
+      "id": "apodex-hr-head",
+      "titleZh": "人力资源负责人",
+      "titleEn": "HR Head",
+      "company": "Apodex",
+      "companyUrl": "https://www.apodex.com/",
+      "companyBlurbZh": "Frontier 模型训练、大规模基础设施、研究与治理；AI for discovery",
+      "companyBlurbEn": "Frontier model training, large-scale infrastructure, research and governance — AI for discovery",
+      "location": "Bay Area, US",
+      "locationZh": "美国湾区",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "向 CEO 汇报；主导人才战略与招聘（含高管/关键岗）、组织设计与人力规划、薪酬福利与绩效文化、员工关系与合规；建设 AI-native People 职能。",
+      "descEn": "Report to the CEO; own talent strategy and recruiting (including exec/critical roles), org design and workforce planning, compensation/benefits and performance culture, employee relations and compliance; build an AI-native People function.",
+      "requirementsZh": [
+        "向 CEO 汇报",
+        "主导人才战略与招聘（含高管/关键岗）",
+        "组织设计与人力规划",
+        "薪酬福利与绩效文化",
+        "员工关系与合规；建设 AI-native People 职能"
+      ],
+      "requirementsEn": [
+        "Report to the CEO",
+        "Own talent strategy and recruiting (including exec/critical roles)",
+        "Org design and workforce planning",
+        "Compensation/benefits and performance culture",
+        "Employee relations and compliance; build an AI-native People function"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "HR",
+        "People",
+        "Talent Acquisition",
+        "Org Design",
+        "Bay Area",
+        "Leadership"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.linkedin.com/company/apodex",
+      "trending": true,
       "logo": "assets/companies/apodex.png"
     }
   ]
