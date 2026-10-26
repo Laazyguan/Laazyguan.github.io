@@ -845,11 +845,16 @@ img { max-width: 100%; display: block; }
   .app-shell { grid-template-columns: 1fr; }
   .rail {
     position: fixed;
-    bottom: 0; left: 0; right: 0;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: auto;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding: 0.55rem 0.75rem;
+    padding-bottom: calc(0.55rem + env(safe-area-inset-bottom, 0px));
     border-right: 0;
     border-top: 1px solid var(--line);
     z-index: 50;
@@ -858,4 +863,16 @@ img { max-width: 100%; display: block; }
   .rail-spacer { display: none; }
   .main { padding: 1.15rem 1rem 5.5rem; }
   .carousel-wrap::after { width: 40px; }
+  .page-header { margin-bottom: 1.5rem; }
+  .page-header h1 { font-size: clamp(1.75rem, 8vw, 2.4rem); }
+  .toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .toolbar-left { width: 100%; }
+  .search-field { max-width: none; }
+  .toolbar-right {
+    width: 100%;
+    justify-content: flex-start;
+  }
 }
