@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-26",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -477,6 +477,78 @@
       "applyHintZh": "通过本页投递。",
       "applyHintEn": "Apply via this page.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/2714dd5d-22e9-4f8e-a8e9-651c0972254f",
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
+    },
+    {
+      "id": "dexmate-embedded",
+      "titleZh": "机器人嵌入式系统工程师",
+      "titleEn": "Embedded Systems Engineer, Robotics",
+      "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
+      "location": "Fremont, CA · Onsite",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": "$100K–$300K + equity",
+      "descZh": "负责机器人电子与软件交界：新 PCB bring-up 与 debug；MCU 固件与嵌入式 Linux 驱动；CAN/CAN FD、EtherCAT、GMSL、I2C、SPI、Ethernet 通信与确定性实时调优",
+      "descEn": "Own the boundary where robot electronics meet software — PCB bring-up and debug; MCU firmware and embedded Linux drivers; CAN/CAN FD, EtherCAT, GMSL, I2C, SPI, Ethernet stacks with deterministic real-time tuning",
+      "requirementsZh": [
+        "3+ 年机器人 / 汽车 / 工控 / 复杂消费电子嵌入式经验",
+        "扎实 C/C++ 固件与驱动；Python 用于工具与测试",
+        "亲手做过板级 bring-up（原理图、布局、datasheet、时序图）",
+        "若干总线驱动经验：CAN/CAN FD、EtherCAT、I2C、SPI、UART、Ethernet",
+        "MCU 固件（ARM Cortex-M / STM32 / TI C2000 等）裸机或 RTOS",
+        "熟悉示波器、逻辑分析仪、协议分析仪、JTAG/SWD",
+        "能系统排查硬件 / 固件 / 软件交界问题；跨 EE / 机械 / 控制 / 软件协作"
+      ],
+      "requirementsEn": [
+        "3+ years professional embedded systems in robotics, automotive, industrial automation, or complex consumer electronics",
+        "Strong C/C++ for firmware and drivers; Python for tooling and test automation",
+        "Hands-on board bring-up: schematics, PCB layouts, datasheets, timing diagrams",
+        "Driver-level experience with several of: CAN/CAN FD, EtherCAT, I2C, SPI, UART, Ethernet",
+        "MCU firmware (ARM Cortex-M, STM32, TI C2000, or similar) on bare-metal or RTOS",
+        "Comfort with scopes, logic/protocol analyzers, and JTAG/SWD",
+        "Systematic debug across hardware / firmware / software; collaboration with EE, mechanical, controls, and software"
+      ],
+      "niceZh": [
+        "GMSL / FPD-Link 等高速相机链路、MIPI CSI-2、V4L2",
+        "嵌入式 Linux 内核 / 设备驱动 / device tree；NVIDIA Jetson / Orin BSP bring-up",
+        "EtherCAT master/slave 栈（SOEM、IgH 等）",
+        "熟悉 Altium / KiCad，能提出原理图级修改",
+        "信号完整性 / 电源完整性 / EMC 基础",
+        "电机控制、BMS 或电源电子经验",
+        "ROS 2 或其他机器人中间件",
+        "垂直整合机器人 / 硬件创业公司经验",
+        "使用 AI 编码工具（如 Claude Code / Codex）加速实现与调试"
+      ],
+      "niceEn": [
+        "GMSL or other high-speed camera links (e.g. MAX9295/MAX9296, FPD-Link), MIPI CSI-2, and V4L2",
+        "Embedded Linux kernel/device-driver development, device trees, BSP bring-up (NVIDIA Jetson / Orin a plus)",
+        "EtherCAT master or slave stacks (SOEM, IgH, or equivalent)",
+        "PCB tools (Altium, KiCad) and proposing schematic-level fixes",
+        "Signal integrity, power integrity, and EMC fundamentals",
+        "Motor-control, BMS, or power-electronics systems",
+        "ROS 2 or other robotics middleware",
+        "Vertically integrated robotics or hardware startup experience",
+        "Hands-on AI coding tools (e.g. Claude Code or Codex) to accelerate implementation, debugging, testing, and docs"
+      ],
+      "tags": [
+        "Embedded",
+        "Firmware",
+        "C/C++",
+        "CAN",
+        "EtherCAT",
+        "GMSL",
+        "Linux Drivers",
+        "Robotics",
+        "Bring-up"
+      ],
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/d180f4c3-d13a-4fe2-aa84-d4991ea4d0e0",
       "trending": true,
       "logo": "assets/companies/dexmate.png"
     },
