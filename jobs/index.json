@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-27",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -658,6 +658,53 @@
       "applyHintEn": "Apply via this page.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/11a09429-ea67-490e-ace4-506972360d96",
       "trending": false,
+      "logo": "assets/companies/dexmate.png"
+    },
+    {
+      "id": "dexmate-hw-cn",
+      "titleZh": "机器人硬件工程师",
+      "titleEn": "Robotics Hardware Engineer",
+      "company": "Dexmate",
+      "companyUrl": "https://www.dexmate.com/",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
+      "location": "Shanghai / Shenzhen, China",
+      "locationZh": "上海 / 深圳",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "descZh": "整机硬件原理图与多层 PCB（电源/IO/主控等）量产落地；电机功率与通信接口；EMC/散热；与嵌入式联调底盘与双臂；电气安全防护与 DFMEA/BOM。",
+      "descEn": "Full-robot hardware schematic and multilayer PCB (power / IO / MCU boards) through production; motor power and communication interfaces; EMC / thermal; bring-up with firmware for chassis and dual-arm; electrical safety and DFMEA / BOM.",
+      "requirementsZh": [
+        "整机硬件原理图与多层 PCB（电源 / IO / 主控等）量产落地",
+        "电机功率与通信接口",
+        "EMC / 散热",
+        "与嵌入式联调底盘与双臂",
+        "电气安全防护与 DFMEA / BOM"
+      ],
+      "requirementsEn": [
+        "Full-robot hardware schematic and multilayer PCB (power / IO / MCU) through production",
+        "Motor power and communication interfaces",
+        "EMC / thermal",
+        "Bring-up with firmware for chassis and dual-arm",
+        "Electrical safety and DFMEA / BOM"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Hardware",
+        "PCB",
+        "Power Electronics",
+        "CAN",
+        "EtherCAT",
+        "Robotics",
+        "Shanghai",
+        "Shenzhen"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.dexmate.com/",
+      "trending": true,
       "logo": "assets/companies/dexmate.png"
     },
     {
