@@ -1716,6 +1716,166 @@
       "externalUrl": "https://www.linkedin.com/company/apodex",
       "trending": true,
       "logo": "assets/companies/apodex.png"
+    },
+    {
+      "company": "Bylabs",
+      "companyUrl": "https://www.linkedin.com/company/bylabs",
+      "companyBlurbZh": "AI 与金融科技工程与研究：AI/ML、云与网络安全、数据平台、高性能交易。",
+      "companyBlurbEn": "AI and fintech engineering and research — AI/ML, cloud and cybersecurity, data platforms, high-performance trading.",
+      "location": "Bay Area / Seattle, US",
+      "locationZh": "美国湾区 / 西雅图",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "$300K–$1M cash",
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.linkedin.com/company/bylabs",
+      "trending": true,
+      "logo": "assets/companies/bylabs.png",
+      "niceZh": [],
+      "niceEn": [],
+      "id": "bylabs-ai-sec-architect",
+      "titleZh": "AI 安全架构师",
+      "titleEn": "AI Security Architect",
+      "descZh": "向风控安全负责人（CEO-1）汇报；AI 系统安全架构（对标 Google L6–7）；最高优。",
+      "descEn": "Report to Head of Risk & Security (CEO-1); AI security architecture (Google L6–7 peer); highest priority.",
+      "requirementsZh": [
+        "向风控安全负责人（CEO-1）汇报",
+        "AI 系统安全架构（对标 Google L6–7）",
+        "最高优岗位"
+      ],
+      "requirementsEn": [
+        "Report to Head of Risk & Security (CEO-1)",
+        "AI security architecture (Google L6–7 peer)",
+        "Highest priority role"
+      ],
+      "tags": [
+        "AI Security",
+        "Architecture",
+        "L6-L7",
+        "Bay Area",
+        "Seattle"
+      ]
+    },
+    {
+      "company": "Bylabs",
+      "companyUrl": "https://www.linkedin.com/company/bylabs",
+      "companyBlurbZh": "AI 与金融科技工程与研究：AI/ML、云与网络安全、数据平台、高性能交易。",
+      "companyBlurbEn": "AI and fintech engineering and research — AI/ML, cloud and cybersecurity, data platforms, high-performance trading.",
+      "location": "Bay Area / Seattle, US",
+      "locationZh": "美国湾区 / 西雅图",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "$300K–$1M cash",
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.linkedin.com/company/bylabs",
+      "trending": true,
+      "logo": "assets/companies/bylabs.png",
+      "niceZh": [],
+      "niceEn": [],
+      "id": "bylabs-ai-red-team",
+      "titleZh": "AI 红队工程师",
+      "titleEn": "AI Red Team Engineer",
+      "descZh": "向风控安全负责人（CEO-1）汇报；AI 红队（对标 Google L4–6）；最高优。",
+      "descEn": "Report to Head of Risk & Security (CEO-1); AI red team (Google L4–6 peer); highest priority.",
+      "requirementsZh": [
+        "向风控安全负责人（CEO-1）汇报",
+        "AI 红队（对标 Google L4–6）",
+        "最高优岗位"
+      ],
+      "requirementsEn": [
+        "Report to Head of Risk & Security (CEO-1)",
+        "AI red team (Google L4–6 peer)",
+        "Highest priority role"
+      ],
+      "tags": [
+        "AI Security",
+        "Red Team",
+        "L4-L6",
+        "Bay Area",
+        "Seattle"
+      ]
+    },
+    {
+      "company": "Bylabs",
+      "companyUrl": "https://www.linkedin.com/company/bylabs",
+      "companyBlurbZh": "AI 与金融科技工程与研究：AI/ML、云与网络安全、数据平台、高性能交易。",
+      "companyBlurbEn": "AI and fintech engineering and research — AI/ML, cloud and cybersecurity, data platforms, high-performance trading.",
+      "location": "Bay Area / Seattle, US",
+      "locationZh": "美国湾区 / 西雅图",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "$300K–$1M cash",
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.linkedin.com/company/bylabs",
+      "trending": true,
+      "logo": "assets/companies/bylabs.png",
+      "niceZh": [],
+      "niceEn": [],
+      "id": "bylabs-ai-blockchain-sec",
+      "titleZh": "AI 区块链安全工程师",
+      "titleEn": "AI Blockchain Security Engineer",
+      "descZh": "向风控安全负责人（CEO-1）汇报；AI × 区块链安全（对标 Google L4–6）。",
+      "descEn": "Report to Head of Risk & Security (CEO-1); AI × blockchain security (Google L4–6 peer).",
+      "requirementsZh": [
+        "向风控安全负责人（CEO-1）汇报",
+        "AI × 区块链 / Crypto 安全（对标 Google L4–6）"
+      ],
+      "requirementsEn": [
+        "Report to Head of Risk & Security (CEO-1)",
+        "AI × blockchain / crypto security (Google L4–6 peer)"
+      ],
+      "tags": [
+        "AI Security",
+        "Blockchain",
+        "Crypto",
+        "L4-L6",
+        "Bay Area",
+        "Seattle"
+      ]
+    },
+    {
+      "company": "Bylabs",
+      "companyUrl": "https://www.linkedin.com/company/bylabs",
+      "companyBlurbZh": "AI 与金融科技工程与研究：AI/ML、云与网络安全、数据平台、高性能交易。",
+      "companyBlurbEn": "AI and fintech engineering and research — AI/ML, cloud and cybersecurity, data platforms, high-performance trading.",
+      "location": "Bay Area / Seattle, US",
+      "locationZh": "美国湾区 / 西雅图",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "$300K–$1M cash",
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.linkedin.com/company/bylabs",
+      "trending": true,
+      "logo": "assets/companies/bylabs.png",
+      "niceZh": [],
+      "niceEn": [],
+      "id": "bylabs-ai-soc",
+      "titleZh": "AI SOC 工程师",
+      "titleEn": "AI SOC Engineer",
+      "descZh": "向风控安全负责人（CEO-1）汇报；AI SOC（对标 Google L4–6）；必须会中文。",
+      "descEn": "Report to Head of Risk & Security (CEO-1); AI SOC (Google L4–6 peer); Mandarin required.",
+      "requirementsZh": [
+        "向风控安全负责人（CEO-1）汇报",
+        "AI SOC（对标 Google L4–6）",
+        "必须会中文"
+      ],
+      "requirementsEn": [
+        "Report to Head of Risk & Security (CEO-1)",
+        "AI SOC (Google L4–6 peer)",
+        "Mandarin Chinese required"
+      ],
+      "tags": [
+        "AI Security",
+        "SOC",
+        "Mandarin",
+        "L4-L6",
+        "Bay Area",
+        "Seattle"
+      ]
     }
   ]
 }
