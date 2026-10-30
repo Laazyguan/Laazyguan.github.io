@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-30",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -1875,6 +1875,115 @@
         "L4-L6",
         "Bay Area",
         "Seattle"
+      ]
+    },
+    {
+      "company": "Applied Intuition",
+      "companyUrl": "https://www.applied.co/",
+      "companyBlurbZh": "车辆智能与物理 AI 软件公司；基于 Dana 平台新建 Robotics 团队，做机器人学习平台并在客户产线部署策略。",
+      "companyBlurbEn": "Vehicle intelligence and physical AI software; new Robotics team building a robot learning platform on Dana and deploying policies on customer lines.",
+      "location": "Sunnyvale, CA, US",
+      "locationZh": "美国加州 Sunnyvale",
+      "typeZh": "全职（现场办公）",
+      "typeEn": "Full-time (on-site)",
+      "salary": null,
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.applied.co/",
+      "trending": true,
+      "logo": "assets/companies/applied.png",
+      "id": "applied-rle-manipulation",
+      "titleZh": "机器人学习工程师 - 操作",
+      "titleEn": "Robot Learning Engineer - Manipulation",
+      "descZh": "操作策略全闭环：任务定义、示教采集、训练微调（VLA 到小模型）、真机评测与边缘部署。",
+      "descEn": "Full learning loop for manipulation: task definition, demos, training/fine-tuning (VLA to compact policies), real-robot eval and edge deployment.",
+      "requirementsZh": [
+        "1+ 年工作经验，CS/软件本科或同等",
+        "训练或微调过操作策略并在真机部署评测",
+        "Python / PyTorch",
+        "模仿学习 + VLA / 扩散策略 / ACT 之一",
+        "运动学、坐标系、相机标定、学习动作到底层控制接口"
+      ],
+      "requirementsEn": [
+        "1+ years professional experience; BS in CS/SE or equivalent",
+        "Trained/fine-tuned a manipulation policy and deployed it on a physical robot",
+        "Python and PyTorch",
+        "Imitation learning plus VLA, diffusion policy, or ACT",
+        "Kinematics, frames, camera calibration, action-to-control interface"
+      ],
+      "niceZh": [
+        "双臂、力控插装、触觉或灵巧手",
+        "ROS 2、LeRobot、Isaac、MuJoCo",
+        "Jetson / 边缘 GPU 推理优化",
+        "RL 后训练、干预学习、跨平台迁移"
+      ],
+      "niceEn": [
+        "Bimanual, force-controlled insertion, tactile or dexterous hands",
+        "ROS 2, LeRobot, Isaac, MuJoCo",
+        "Jetson / edge GPU inference optimization",
+        "RL post-training, learning from interventions, cross-platform transfer"
+      ],
+      "tags": [
+        "Robot Learning",
+        "Manipulation",
+        "Imitation Learning",
+        "VLA",
+        "PyTorch",
+        "Sunnyvale"
+      ]
+    },
+    {
+      "company": "Applied Intuition",
+      "companyUrl": "https://www.applied.co/",
+      "companyBlurbZh": "车辆智能与物理 AI 软件公司；基于 Dana 平台新建 Robotics 团队，做机器人学习平台并在客户产线部署策略。",
+      "companyBlurbEn": "Vehicle intelligence and physical AI software; new Robotics team building a robot learning platform on Dana and deploying policies on customer lines.",
+      "location": "Sunnyvale, CA, US",
+      "locationZh": "美国加州 Sunnyvale",
+      "typeZh": "全职（现场办公）",
+      "typeEn": "Full-time (on-site)",
+      "salary": null,
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://www.applied.co/",
+      "trending": true,
+      "logo": "assets/companies/applied.png",
+      "id": "applied-rle-rl",
+      "titleZh": "机器人学习工程师（强化学习方向）",
+      "titleEn": "Robot Learning Engineer (Reinforcement Learning Focus)",
+      "descZh": "用 RL、人类反馈和仿真提升真机操作策略的稳定性与速度，建立严谨评测。",
+      "descEn": "Use RL, human feedback and simulation to make real-robot manipulation policies more reliable and faster, with rigorous evaluation.",
+      "requirementsZh": [
+        "在物理机器人上应用 RL 并部署评测",
+        "Python / PyTorch，能实现与调试 RL 算法",
+        "On/off-policy、offline RL、示教数据、奖励设计、策略微调",
+        "机器人仿真器与 sim-to-real 差异诊断",
+        "严谨的实验判断力"
+      ],
+      "requirementsEn": [
+        "Applied RL to a physical robot, deployed and measured",
+        "Python and PyTorch; implement and debug RL algorithms",
+        "On/off-policy and offline RL, demos, reward design, fine-tuning",
+        "Robotics simulator and sim-to-real gap diagnosis",
+        "Strong experimental judgment"
+      ],
+      "niceZh": [
+        "残差学习、人在环 RL、大预训练策略上的 RL",
+        "奖励模型、偏好学习、VLM 任务验证、世界模型",
+        "接触丰富操作、阻抗控制、力/触觉",
+        "共享 GPU 上的大规模仿真或分布式训练"
+      ],
+      "niceEn": [
+        "Residual / human-in-the-loop RL, RL on large pretrained policies",
+        "Reward models, preference learning, VLM task verification, world models",
+        "Contact-rich manipulation, impedance control, force/tactile",
+        "Scaled simulation or distributed training on shared GPUs"
+      ],
+      "tags": [
+        "Reinforcement Learning",
+        "Robot Learning",
+        "Sim-to-Real",
+        "PyTorch",
+        "Sunnyvale"
       ]
     }
   ]
