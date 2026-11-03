@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-11-03",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -1984,6 +1984,62 @@
         "Sim-to-Real",
         "PyTorch",
         "Sunnyvale"
+      ]
+    },
+    {
+      "company": "Offloop",
+      "companyUrl": "https://offloop.org/",
+      "companyBlurbZh": "新加坡早期初创，做 AI 原生的团队协作产品（类似 AI native Slack）；天使轮 1000 万美元。",
+      "companyBlurbEn": "Early-stage Singapore startup building an AI-native team collaboration product (AI-native Slack); $10M angel round.",
+      "location": "Singapore",
+      "locationZh": "新加坡",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": null,
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": "https://offloop.org/",
+      "trending": true,
+      "logo": "assets/companies/offloop.png",
+      "id": "offloop-ios",
+      "titleZh": "iOS 开发工程师",
+      "titleEn": "iOS Engineer",
+      "descZh": "负责 iOS 应用功能开发与迭代，优化启动、内存、流畅度和网络性能，跟进线上质量。",
+      "descEn": "Build and iterate the iOS app; optimize launch, memory, smoothness and networking; own production quality.",
+      "requirementsZh": [
+        "3–5 年 iOS 原生开发，计算机相关本科及以上",
+        "熟练 Swift，熟悉 Objective-C",
+        "UIKit + SwiftUI；生命周期、内存管理、多线程",
+        "网络、本地存储、异步编程",
+        "Xcode / Instruments 性能分析；完整 TestFlight 与 App Store 发布流程"
+      ],
+      "requirementsEn": [
+        "3–5 years native iOS; BS in CS or related",
+        "Strong Swift, familiar with Objective-C",
+        "UIKit and SwiftUI; lifecycle, memory, concurrency",
+        "Networking, local storage, async programming",
+        "Xcode/Instruments profiling; full TestFlight and App Store release"
+      ],
+      "niceZh": [
+        "独立负责 App 或核心模块",
+        "Swift Concurrency、自动化测试、CI/CD",
+        "复杂交互、动画、多媒体、实时通信",
+        "AI 应用或大模型接入",
+        "个人上架作品、开源或技术分享"
+      ],
+      "niceEn": [
+        "Owned an app or core module end to end",
+        "Swift Concurrency, automated testing, CI/CD",
+        "Complex interaction, animation, media, real-time communication",
+        "AI app or LLM integration",
+        "Shipped personal apps, open source, or tech talks"
+      ],
+      "tags": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "Singapore",
+        "AI App"
       ]
     }
   ]
