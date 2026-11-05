@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-05",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -704,6 +704,169 @@
       "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
       "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
       "externalUrl": "https://www.dexmate.com/",
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
+    },
+    {
+      "id": "dexmate-motor-controls",
+      "titleZh": "嵌入式电机控制工程师",
+      "titleEn": "Embedded Motor Controls Engineer",
+      "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
+      "location": "Fremont, CA · Onsite",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": null,
+      "descZh": "开发机器人执行器的实时固件，负责 FOC 电机控制、编码器集成、伺服调参、通信和故障处理。",
+      "descEn": "Develop real-time firmware for robot actuators; own FOC motor control, encoder integration, servo tuning, communications, and fault handling.",
+      "requirementsZh": [
+        "强嵌入式 C/C++ 实时固件",
+        "在真硬件上实现过 FOC 并调过伺服环",
+        "熟悉编码器、ADC/PWM 时序、中断、裸机或 RTOS",
+        "会用示波器和逻辑分析仪调试"
+      ],
+      "requirementsEn": [
+        "Strong embedded C/C++ for real-time firmware",
+        "Implemented FOC on real hardware and tuned servo loops",
+        "Familiar with encoders, ADC/PWM timing, interrupts, bare-metal or RTOS",
+        "Comfortable debugging with oscilloscopes and logic analyzers"
+      ],
+      "niceZh": [
+        "TI C2000/STM32",
+        "EtherCAT/CAN 伺服网络",
+        "系统辨识与摩擦补偿",
+        "HIL 和 Python 测试自动化"
+      ],
+      "niceEn": [
+        "TI C2000/STM32",
+        "EtherCAT/CAN servo networks",
+        "System identification and friction compensation",
+        "HIL and Python test automation"
+      ],
+      "tags": [
+        "FOC",
+        "Embedded C/C++",
+        "PMSM/BLDC",
+        "CAN FD",
+        "EtherCAT",
+        "RTOS"
+      ],
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/09567566-2f0a-4a83-80b9-58023f74985d",
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
+    },
+    {
+      "id": "dexmate-motor-drive",
+      "titleZh": "电机驱动与功率电子工程师",
+      "titleEn": "Motor Drive and Power Electronics Engineer",
+      "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
+      "location": "Fremont, CA · Onsite",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": null,
+      "descZh": "负责执行器逆变器硬件，包括电机驱动电路和 PCB，从架构、bring-up 到量产发布。",
+      "descEn": "Own actuator inverter hardware, including motor-drive circuits and PCBs, from architecture and bring-up through production release.",
+      "requirementsZh": [
+        "设计并 bring-up 过 BLDC/PMSM/伺服驱动",
+        "扎实的功率电子基础",
+        "用主流 EDA 做原理图和 PCB",
+        "会用示波器、电流探头和功率分析仪",
+        "懂 FOC"
+      ],
+      "requirementsEn": [
+        "Designed and brought up BLDC/PMSM/servo drives",
+        "Solid power-electronics fundamentals",
+        "Schematic and PCB design with mainstream EDA tools",
+        "Comfortable with oscilloscopes, current probes, and power analyzers",
+        "Understands FOC"
+      ],
+      "niceZh": [
+        "高密度机器人或伺服驱动量产经验",
+        "EMI/EMC 预认证",
+        "功能安全硬件",
+        "Python 测试自动化"
+      ],
+      "niceEn": [
+        "Production experience with high-density robot or servo drives",
+        "EMI/EMC pre-compliance",
+        "Functional-safety hardware",
+        "Python test automation"
+      ],
+      "tags": [
+        "Power Electronics",
+        "Motor Drive",
+        "Inverter",
+        "PCB",
+        "EMI/EMC",
+        "FOC"
+      ],
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/229e6821-fe85-4547-89e6-272df637c23e",
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
+    },
+    {
+      "id": "dexmate-sr-mfg",
+      "titleZh": "高级制造工程师（机器人）",
+      "titleEn": "Senior Manufacturing Engineer, Robotics",
+      "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
+      "location": "Fremont, CA · Onsite",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": null,
+      "descZh": "主导机器人子系统和总装的 NPI，把工程样机做成可稳定生产、可检验、可量产的硬件。",
+      "descEn": "Lead NPI for robot subsystems and final assembly, turning engineering prototypes into stable, inspectable, production-ready hardware.",
+      "requirementsZh": [
+        "5 年以上制造工程/NPI 经验（机器人、自动化、汽车、航空、医疗等复杂机电产品）",
+        "至少把一个产品从样机做到量产",
+        "强 DFM/DFA",
+        "熟悉 CNC/铸造/钣金/注塑",
+        "GD&T、公差链和 3D CAD",
+        "直接对接过供应商和 CM"
+      ],
+      "requirementsEn": [
+        "5+ years manufacturing engineering / NPI experience (robotics, automation, automotive, aerospace, medical, or other complex electromechanical products)",
+        "Took at least one product from prototype to production",
+        "Strong DFM/DFA",
+        "Familiar with CNC / casting / sheet metal / injection molding",
+        "GD&T, tolerance stack-ups, and 3D CAD",
+        "Direct experience working with suppliers and CMs"
+      ],
+      "niceZh": [
+        "美国工厂或 CM 现场 NPI",
+        "关节/执行器/机械臂/底盘制造",
+        "PFMEA、MSA、过程能力研究"
+      ],
+      "niceEn": [
+        "On-site NPI at US factories or CMs",
+        "Joint / actuator / arm / chassis manufacturing",
+        "PFMEA, MSA, process capability studies"
+      ],
+      "tags": [
+        "NPI",
+        "DFM/DFA",
+        "GD&T",
+        "Manufacturing",
+        "Supplier Quality",
+        "PFMEA"
+      ],
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/cb7ba695-dd64-4818-b98d-92f36bdb8c71",
       "trending": true,
       "logo": "assets/companies/dexmate.png"
     },
