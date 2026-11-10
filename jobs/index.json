@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-10",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -127,6 +127,40 @@
       "applyHintEn": "Apply via this page to Xuezheng (Jeffrey).",
       "externalUrl": "https://ropedia.com",
       "trending": false,
+      "logo": "assets/companies/ropedia.png"
+    },
+    {
+      "id": "ropedia-data-ops",
+      "titleZh": "数据运营负责人",
+      "titleEn": "Head of Data Operations",
+      "company": "Ropedia",
+      "companyUrl": "https://ropedia.com",
+      "companyBlurbZh": "Physical AI 数据基础设施：HOMIE 第一人称采集硬件、Foundry 数据处理平台、Xperience 数据集与 Physical data-as-a-Service。",
+      "companyBlurbEn": "Physical AI data infrastructure — HOMIE capture hardware, Foundry processing, Xperience datasets, and Physical data-as-a-Service.",
+      "location": "Shanghai, China · occasional travel to Malaysia",
+      "locationZh": "上海（base），偶尔出差马来西亚",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "¥60–70万（优秀人选可再谈）",
+      "descZh": "汇报 COO；base 上海，偶尔出差马来西亚。",
+      "descEn": "Reports to the COO. Based in Shanghai, with occasional travel to Malaysia.",
+      "requirementsZh": [
+        "汇报 COO"
+      ],
+      "requirementsEn": [
+        "Reports to the COO"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Data Operations",
+        "Shanghai",
+        "Physical AI"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey).",
+      "externalUrl": "https://ropedia.com",
+      "trending": true,
       "logo": "assets/companies/ropedia.png"
     },
     {
