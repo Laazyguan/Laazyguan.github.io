@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-19",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -901,6 +901,75 @@
       "applyHintZh": "通过本页投递。",
       "applyHintEn": "Apply via this page.",
       "externalUrl": "https://jobs.ashbyhq.com/dexmate/cb7ba695-dd64-4818-b98d-92f36bdb8c71",
+      "trending": true,
+      "logo": "assets/companies/dexmate.png"
+    },
+    {
+      "id": "dexmate-ee-controller-hw",
+      "titleZh": "高级电子工程师（机器人主控硬件）",
+      "titleEn": "Senior Electrical Engineer, Robot Controller Hardware",
+      "company": "Dexmate",
+      "companyUrl": "https://dexmate.com",
+      "companyBlurbZh": "统一 Physical AI 平台 + 双臂移动机器人 Vega。",
+      "companyBlurbEn": "Unified Physical AI platform + dual-arm mobile robot Vega.",
+      "location": "Fremont, CA · Onsite",
+      "locationZh": "加州 Fremont · 现场办公",
+      "typeZh": "全职 · OnSite",
+      "typeEn": "Full-time · Onsite",
+      "salary": null,
+      "descZh": "负责 Dexmate 机器人平台的主控硬件：Jetson（含 AGX Thor）+ x86 + MCU 的多处理器架构与定制载板，覆盖原理图、PCB、bring-up、验证到量产。",
+      "descEn": "Design main controller hardware for Dexmate's robot platforms: multi-processor architecture integrating NVIDIA Jetson modules (including AGX Thor), x86 hosts, and MCUs, plus custom carrier boards — schematics, PCB, bring-up, validation, and production release.",
+      "requirementsZh": [
+        "5+ 年嵌入式处理器系统或高速数字硬件设计经验，至少一块板完成 bring-up 并量产交付",
+        "亲手设计过至少一块定制 NVIDIA Jetson 载板，并完成板级 bring-up",
+        "原理图能力扎实，熟练使用 Altium、Cadence 或同类工具，有高速 PCB 布局定义与评审经验",
+        "有设计并调试多种高速接口的实践经验，如 PCIe、以太网、USB、MIPI 或相机 SerDes",
+        "扎实的信号完整性与电源完整性（SI/PI）基础",
+        "有处理器或计算模组电源设计经验，包括稳压器选型、负载瞬态、时序与保护",
+        "台架调试能力强：示波器、合适的探头方法、逻辑/协议分析仪、可编程电源"
+      ],
+      "requirementsEn": [
+        "5+ years of electrical hardware design with embedded processor systems or high-speed digital electronics, including at least one board taken through bring-up and production release",
+        "Hands-on design of at least one custom NVIDIA Jetson carrier board, taken through board bring-up",
+        "Strong schematic design and proficiency with Altium, Cadence, or equivalent; experience defining and reviewing high-speed PCB layouts",
+        "Practical experience designing and debugging high-speed interfaces such as PCIe, Ethernet, USB, MIPI, or camera SerDes",
+        "Strong understanding of signal and power integrity (SI/PI)",
+        "Experience designing processor or compute-module power supplies, including regulator selection, load transients, sequencing, and protection",
+        "Strong bench debugging skills using oscilloscopes, appropriate probing techniques, logic or protocol analyzers, and programmable power supplies"
+      ],
+      "niceZh": [
+        "NVIDIA Jetson AGX Thor 或 AGX Orin 载板实现、平台 bring-up 与电源/热集成",
+        "在同一主控平台集成多种处理器家族（如 ARM 与 x86，或应用处理器与实时 MCU）；Qualcomm 机器人平台或 SoC 芯片级设计",
+        "为机器人、自动驾驶、无人机或其他受功耗、空间与环境约束的系统设计过主控硬件",
+        "分立处理器与 DDR 集成；多路相机/传感器经 GMSL、FPD-Link 或多千兆以太网接入",
+        "硬件时间同步（IEEE 1588/PTP 或 gPTP）",
+        "HDI PCB、高密度 BGA 扇出，以及 SI/PI 仿真（HyperLynx、Sigrity 或 Ansys）",
+        "熟悉嵌入式 Linux、JetPack、pinmux/设备树、启动诊断，以及硬件验证脚本",
+        "EMC 预认证、环境考核、量产测试开发与制造爬坡"
+      ],
+      "niceEn": [
+        "NVIDIA Jetson AGX Thor or AGX Orin carrier-board implementation, platform bring-up, and power/thermal integration",
+        "Integrating multiple processor families in one controller (e.g. ARM with x86, or application processors with real-time MCUs); Qualcomm robotics platforms or chip-down SoC designs",
+        "Controller hardware for robots, autonomous vehicles, drones, or other power-, space-, and environment-constrained systems",
+        "Discrete processor and DDR integration; multi-camera/sensor links over GMSL, FPD-Link, or multi-gigabit Ethernet",
+        "Hardware time synchronization (IEEE 1588/PTP or gPTP)",
+        "HDI PCB, dense BGA fanout, and SI/PI simulation (HyperLynx, Sigrity, or Ansys)",
+        "Embedded Linux, JetPack, pinmux/device tree, boot diagnostics, and hardware-validation scripting",
+        "EMC pre-compliance, environmental qualification, production test development, and manufacturing ramp"
+      ],
+      "tags": [
+        "Jetson",
+        "AGX Thor/Orin",
+        "PCB",
+        "High-speed interfaces",
+        "SI/PI",
+        "Power design",
+        "PTP",
+        "Altium"
+      ],
+      "applyHintZh": "通过本页投递。",
+      "applyHintEn": "Apply via this page.",
+      "externalUrl": "https://jobs.ashbyhq.com/dexmate/a73e3ddd-6d76-41c2-a4be-7a7ced399ea3",
       "trending": true,
       "logo": "assets/companies/dexmate.png"
     },
