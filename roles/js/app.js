@@ -104,7 +104,7 @@
   function locBucket(job) {
     const loc = `${job.location || ""} ${job.locationZh || ""}`.toLowerCase();
     if (/shanghai|上海|china|中国|xuhui|徐汇/.test(loc)) return "cn";
-    if (/united states|u\.s\.|fremont|california|oregon|america|美国|加州/.test(loc)) return "us";
+    if (/united states|u\.s\.|fremont|california|oregon|america|美国|加州|san francisco|bay area|旧金山|湾区/.test(loc)) return "us";
     return "other";
   }
 

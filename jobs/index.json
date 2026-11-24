@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-24",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -2307,6 +2307,177 @@
         "Singapore",
         "AI App"
       ]
+    },
+    {
+      "id": "heliant-infra-fleet",
+      "titleZh": "基础设施工程师（算力集群运维管理）",
+      "titleEn": "Infrastructure Engineer, Fleet Management",
+      "company": "Heliant",
+      "companyUrl": null,
+      "companyBlurbZh": "正在打造专为 AI 与智能体负载构建的自主云，从能源与物理基础设施到算力、存储、网络、推理和训练整栈优化。",
+      "companyBlurbEn": "Building an autonomous cloud purpose-built for AI and agentic workloads, optimizing the full stack from energy and physical infrastructure to compute, storage, networking, inference and training.",
+      "location": "San Francisco Bay Area",
+      "locationZh": "旧金山湾区",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "Top of market — cash on par with leading public tech companies + highly competitive equity",
+      "descZh": "负责 GPU 算力集群从上架到退役的自动化、机器基线、网络存储调优、验收测试和可观测。",
+      "descEn": "Own automation of the GPU fleet lifecycle from racking to decommissioning, machine baselines, network/storage tuning, acceptance testing and observability.",
+      "requirementsZh": [
+        "物理 Linux 服务器生产基础设施",
+        "跨内核/驱动/硬件/网络/存储排障",
+        "Python 或 Go 自动化"
+      ],
+      "requirementsEn": [
+        "Production infrastructure on physical Linux servers",
+        "Debugging across kernel/drivers/hardware/network/storage",
+        "Automation in Python or Go"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Linux",
+        "Bare metal",
+        "GPU",
+        "Python/Go",
+        "Redfish/IPMI",
+        "InfiniBand/RoCE",
+        "Ansible"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": null,
+      "trending": true,
+      "logo": null
+    },
+    {
+      "id": "heliant-swe-ai-product",
+      "titleZh": "软件工程师（AI 产品）",
+      "titleEn": "Software Engineer, AI Product",
+      "company": "Heliant",
+      "companyUrl": null,
+      "companyBlurbZh": "正在打造专为 AI 与智能体负载构建的自主云，从能源与物理基础设施到算力、存储、网络、推理和训练整栈优化。",
+      "companyBlurbEn": "Building an autonomous cloud purpose-built for AI and agentic workloads, optimizing the full stack from energy and physical infrastructure to compute, storage, networking, inference and training.",
+      "location": "San Francisco Bay Area",
+      "locationZh": "旧金山湾区",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "Top of market — cash on par with leading public tech companies + highly competitive equity",
+      "descZh": "构建推理、评测、强化学习和后训练云服务及 API/SDK 开发者体验。",
+      "descEn": "Build cloud services for inference, evaluation, reinforcement learning and post-training, plus API/SDK developer experience.",
+      "requirementsZh": [
+        "生产后端/分布式/开发者平台",
+        "Python 或 Go",
+        "做过模型推理、训练、评测或 RL",
+        "产品感"
+      ],
+      "requirementsEn": [
+        "Production backend, distributed systems, or developer platforms",
+        "Python or Go",
+        "Hands-on with model inference, training, evaluation or RL",
+        "Product sense"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Inference",
+        "RL",
+        "Post-training",
+        "vLLM/SGLang",
+        "Kubernetes/Ray",
+        "Python/Go"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": null,
+      "trending": true,
+      "logo": null
+    },
+    {
+      "id": "heliant-swe-cloud-platform",
+      "titleZh": "软件工程师（云平台）",
+      "titleEn": "Software Engineer, Cloud Platform",
+      "company": "Heliant",
+      "companyUrl": null,
+      "companyBlurbZh": "正在打造专为 AI 与智能体负载构建的自主云，从能源与物理基础设施到算力、存储、网络、推理和训练整栈优化。",
+      "companyBlurbEn": "Building an autonomous cloud purpose-built for AI and agentic workloads, optimizing the full stack from energy and physical infrastructure to compute, storage, networking, inference and training.",
+      "location": "San Francisco Bay Area",
+      "locationZh": "旧金山湾区",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "Top of market — cash on par with leading public tech companies + highly competitive equity",
+      "descZh": "构建面向客户的 GPU 云控制面：容量开通、身份权限、计量计费、租户可观测与 CLI/Terraform。",
+      "descEn": "Build the customer-facing GPU cloud control plane: capacity provisioning, identity and access, metering and billing, tenant observability, CLI/Terraform.",
+      "requirementsZh": [
+        "生产后端/分布式服务",
+        "Go 或 Python",
+        "API、认证授权与多租户模型",
+        "数据库与异步处理"
+      ],
+      "requirementsEn": [
+        "Production backend or distributed services",
+        "Go or Python",
+        "APIs, authN/authZ and multi-tenant models",
+        "Databases and async processing"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Control plane",
+        "Go/Python",
+        "IAM/SSO",
+        "Billing",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": null,
+      "trending": true,
+      "logo": null
+    },
+    {
+      "id": "heliant-swe-cluster-orch",
+      "titleZh": "软件工程师（集群编排）",
+      "titleEn": "Software Engineer, Cluster Orchestration",
+      "company": "Heliant",
+      "companyUrl": null,
+      "companyBlurbZh": "正在打造专为 AI 与智能体负载构建的自主云，从能源与物理基础设施到算力、存储、网络、推理和训练整栈优化。",
+      "companyBlurbEn": "Building an autonomous cloud purpose-built for AI and agentic workloads, optimizing the full stack from energy and physical infrastructure to compute, storage, networking, inference and training.",
+      "location": "San Francisco Bay Area",
+      "locationZh": "旧金山湾区",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "Top of market — cash on par with leading public tech companies + highly competitive equity",
+      "descZh": "构建托管 GPU 集群（裸金属、managed Kubernetes、managed Slurm），负责调度、资源分配、负载性能与恢复。",
+      "descEn": "Build managed GPU clusters (bare metal, managed Kubernetes, managed Slurm), owning scheduling, resource allocation, workload performance and recovery.",
+      "requirementsZh": [
+        "Linux 与生产分布式系统",
+        "深度 Kubernetes 或 Slurm",
+        "Go/Python",
+        "了解 GPU 软件栈、容器、网络和存储"
+      ],
+      "requirementsEn": [
+        "Linux and production distributed systems",
+        "Deep Kubernetes or Slurm",
+        "Go/Python",
+        "Understanding of the GPU software stack, containers, networking and storage"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "Kubernetes",
+        "Slurm",
+        "GPU scheduling",
+        "NCCL/MPI",
+        "RDMA",
+        "Go/Python"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": null,
+      "trending": true,
+      "logo": null
     }
   ]
 }

@@ -619,6 +619,7 @@ img { max-width: 100%; display: block; }
   font-size: 1.1rem;
   font-weight: 800;
   letter-spacing: -0.03em;
+  overflow-wrap: break-word;
 }
 .tags {
   display: flex;
@@ -655,7 +656,7 @@ img { max-width: 100%; display: block; }
 
 .detail-header {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 24rem);
   gap: 1.5rem;
   align-items: start;
   margin-bottom: 2rem;
@@ -696,12 +697,15 @@ img { max-width: 100%; display: block; }
 }
 .detail-figure {
   text-align: right;
+  min-width: 0;
+  max-width: 100%;
 }
 .detail-figure-main {
   font-size: clamp(1.5rem, 3vw, 2.1rem);
   font-weight: 800;
   letter-spacing: -0.04em;
-  line-height: 1.1;
+  line-height: 1.2;
+  overflow-wrap: break-word;
 }
 .detail-figure-sub {
   margin-top: 0.25rem;
@@ -838,7 +842,7 @@ img { max-width: 100%; display: block; }
   .jobs-table col.c-comp { width: 36%; }
   .jobs-table tbody td:last-child { text-align: left; }
   .detail-header { grid-template-columns: 1fr; }
-  .detail-figure { text-align: left; }
+  .detail-figure { text-align: left; max-width: none; }
 }
 
 @media (max-width: 640px) {
