@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "jobs": [
     {
       "id": "palatial-sim-lead",
@@ -2472,6 +2472,41 @@
         "NCCL/MPI",
         "RDMA",
         "Go/Python"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": null,
+      "trending": true,
+      "logo": null
+    },
+    {
+      "id": "heliant-swe-frontend",
+      "titleZh": "软件工程师（前端）",
+      "titleEn": "Software Engineer, Frontend",
+      "company": "Heliant",
+      "companyUrl": null,
+      "companyBlurbZh": "正在打造专为 AI 与智能体负载构建的自主云，从能源与物理基础设施到算力、存储、网络、推理和训练整栈优化。",
+      "companyBlurbEn": "Building an autonomous cloud purpose-built for AI and agentic workloads, optimizing the full stack from energy and physical infrastructure to compute, storage, networking, inference and training.",
+      "location": "San Francisco Bay Area",
+      "locationZh": "旧金山湾区",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "Top of market — cash on par with leading public tech companies + highly competitive equity",
+      "descZh": "主导 AI 云前端工程，与客户、设计师和后端一起把新工作流从原型做到生产，建设可复用组件与数据模式，并在用量增长时保障性能与可访问性。",
+      "descEn": "Lead frontend engineering for the AI cloud, working with customers, designers and backend to take new workflows from prototype to production, building reusable components and data patterns, and ensuring performance and accessibility as usage grows.",
+      "requirementsZh": [],
+      "requirementsEn": [],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "HTML",
+        "CSS",
+        "Frontend",
+        "B2B Cloud",
+        "AI Cloud"
       ],
       "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
       "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
