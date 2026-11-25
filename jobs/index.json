@@ -2,6 +2,53 @@
   "updatedAt": "2026-11-25",
   "jobs": [
     {
+      "id": "alibaba-ai-inference-sre",
+      "titleZh": "站点可靠性工程师（SRE）",
+      "titleEn": "Site Reliability Engineer (SRE)",
+      "company": "Alibaba Group",
+      "companyUrl": null,
+      "companyBlurbZh": "阿里巴巴集团 AI 推理平台（MaaS 模型服务平台）",
+      "companyBlurbEn": "Alibaba Group — AI Inference Platform (MaaS model-serving platform).",
+      "location": "Bellevue, Washington, USA",
+      "locationZh": "美国华盛顿州贝尔维尤",
+      "typeZh": "全职",
+      "typeEn": "Full-time",
+      "salary": "$133,200/year – $219,600/year base",
+      "descZh": "为阿里巴巴 MaaS 模型服务平台负责部署运维、监控告警、事故应急与 RCA、排查客户 API 服务质量问题，并用 Python/Go 构建自动化与诊断工具。",
+      "descEn": "Responsible for deployment and operations, monitoring and alerting, incident response and RCA, and troubleshooting customer API service-quality issues for Alibaba's MaaS model-serving platform, and for building automation and diagnostic tools with Python/Go.",
+      "requirementsZh": [
+        "3+ 年 SRE / DevOps / 后端经验，有分布式系统运维经验",
+        "熟悉 Python / Golang / Java / C++",
+        "能参与 on-call",
+        "中英文日常沟通流利"
+      ],
+      "requirementsEn": [
+        "3+ years of SRE / DevOps / backend experience, with experience operating distributed systems",
+        "Familiar with Python / Golang / Java / C++",
+        "Able to participate in on-call",
+        "Fluent in everyday Chinese and English communication"
+      ],
+      "niceZh": [],
+      "niceEn": [],
+      "tags": [
+        "SRE",
+        "DevOps",
+        "Kubernetes",
+        "Prometheus",
+        "Istio",
+        "Linux",
+        "Python",
+        "Go",
+        "AI Inference",
+        "MaaS"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": null,
+      "trending": true,
+      "logo": null
+    },
+    {
       "id": "sunday-senior-pie",
       "titleZh": "高级制程工艺工程师（机器人领域）",
       "titleEn": "Senior PIE Engineer",
