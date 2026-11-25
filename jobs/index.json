@@ -2,6 +2,66 @@
   "updatedAt": "2026-11-25",
   "jobs": [
     {
+      "id": "vindynamics-director-rd",
+      "titleZh": "研发总监（人形机器人）",
+      "titleEn": "Director of Research and Development (Humanoid Robot)",
+      "company": "VinDynamics",
+      "companyUrl": null,
+      "companyBlurbZh": "设计安全、平价、智能的人形机器人，用于日常生活，背后是越南科技集团 VinGroup。",
+      "companyBlurbEn": "At VinDynamics, we design safe, affordable, and intelligent humanoid robots to assist in everyday life — robots for everyone. Backed by VinGroup, Vietnam’s leading technology conglomerate, we are on a mission to make advanced robotics accessible, reliable, and beneficial for billions of people worldwide. By combining cutting-edge AI, world-class engineering, and human-centered design, we aim to seamlessly integrate robots into daily life — enhancing safety, productivity, and happiness at home and beyond.",
+      "location": "Reno, Nevada, USA",
+      "locationZh": "美国内华达州里诺",
+      "typeZh": null,
+      "typeEn": null,
+      "salary": null,
+      "descZh": "VinDynamics US，Research and Development 部门，向 Chief Technology Officer 汇报。制定并执行人形机器人的长期研发路线图。领导并指导两个工程部门：硬件/机电团队（机械、电子、嵌入式、执行器）和软件/AI 团队（控制、规划、感知、AI/ML、仿真）。推动操作、移动操作（loco-manipulation）、自主性与机器人硬件方面的创新。监督底层与高层控制栈的开发（状态估计、全身控制、MPC、强化学习策略）。协调硬件、固件与软件/AI 之间的跨职能协作。制定技术标准、架构原则与工程流程。",
+      "descEn": "VinDynamics US, Research and Development department, reporting to the Chief Technology Officer. Define and execute the long-term R&D roadmap for humanoid robotics. Lead and mentor two engineering divisions: Hardware/Mechatronics Team (mechanical, EE, embedded, actuators) and Software/AI Team (controls, planning, perception, AI/ML, simulations). Drive innovation in manipulation, loco-manipulation, autonomy, and robot hardware. Oversee development of low-level and high-level control stack (state estimation, whole-body control, MPC, RL policies). Coordinate cross-functional collaboration between hardware, firmware, and software/AI. Set technical standards, architecture principles, and engineering processes.",
+      "requirementsZh": [
+        "计算机科学、机器人或相关专业硕士或博士学位。",
+        "5 年以上先进机器人、腿式机器人经验，其中至少 2 年担任领导角色",
+        "具备领导跨学科工程团队的经验",
+        "在人形或腿式机器人的软件架构与 AI 模型方面有深厚技术专长",
+        "在运动与操作方面具备学习方法的进阶经验（即强化学习、模仿学习、大规模行为模型、VLA）",
+        "具备实时系统、ROS/ROS2 或机器人中间件/高层的实践经验",
+        "具备从执行器、传感器、电子、控制、规划、AI 到数据基础设施的完整人形机器人技术栈经验",
+        "Personality/Attitude：出色的人际交往、组织与领导能力",
+        "积极主动、敬业、以业务为导向、负责且乐于学习",
+        "良好的沟通能力、创造性解决问题的能力以及注重细节"
+      ],
+      "requirementsEn": [
+        "Master’s or PhD in Computer Science, Robotics, or related field.",
+        "5+ years of experience in advanced robotics, legged robots, with at least 2 years in leader roles",
+        "Proven experience leading multi-disciplinary engineering teams",
+        "Deep technical expertise in software architecture and AI models for humanoid or legged robots",
+        "Advanced experience learning approaches (i.e., reinforcement learning, imitation learning, large behavior models, VLA) for locomotion and manipulation",
+        "Hands-on experience with real-time systems, ROS/ROS2, or robotic middleware/high level",
+        "Experience in full humanoid stack from actuators, sensors, electronics, control, planning, AI, and data infrastructure",
+        "Personality/Attitude: Strong interpersonal, organizational and leadership skills",
+        "Proactive, dedicated, business-oriented, responsible and willing to learn",
+        "Good communication skills, creative problem-solving skills and attention to detail"
+      ],
+      "niceZh": [
+        "了解基于模型的方法（即 MPC、最优控制、LQR）是加分项"
+      ],
+      "niceEn": [
+        "Knowledge about model-based approach (i.e., MPC, optimal control, LQR) is a plus"
+      ],
+      "tags": [
+        "Humanoid",
+        "Robotics",
+        "R&D",
+        "AI",
+        "Leadership",
+        "ROS",
+        "Reinforcement Learning"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": null,
+      "trending": true,
+      "logo": null
+    },
+    {
       "id": "palatial-sim-lead",
       "titleZh": "仿真团队负责人",
       "titleEn": "Simulation Team Lead",
