@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-11-26",
+  "updatedAt": "2026-11-27",
   "jobs": [
+    {
+      "id": "sunday-p0-tpm",
+      "titleZh": "P0-TPM",
+      "titleEn": "P0-TPM",
+      "company": "Sunday",
+      "companyUrl": null,
+      "companyBlurbZh": "Sunday 做进家庭承担家务的机器人",
+      "companyBlurbEn": "Sunday builds robots that enter the home and take on household chores.",
+      "location": "Shenzhen",
+      "locationZh": "深圳",
+      "typeZh": null,
+      "typeEn": null,
+      "salary": null,
+      "descZh": "负责研发物料的 delivery。",
+      "descEn": "Owns delivery of R&D materials.",
+      "requirementsZh": [
+        "熟悉 IPD 流程",
+        "有成熟产品经验",
+        "英文口语好"
+      ],
+      "requirementsEn": [
+        "Familiar with the IPD process",
+        "Has mature product experience",
+        "Good spoken English"
+      ],
+      "niceZh": [
+        "机器人相关背景优先",
+        "灵巧手、机械臂背景也可考虑"
+      ],
+      "niceEn": [
+        "Robotics-related background preferred",
+        "Dexterous-hand or robotic-arm background may also be considered"
+      ],
+      "tags": [
+        "TPM",
+        "IPD",
+        "R&D Material Delivery",
+        "Spoken English",
+        "Robotics",
+        "Dexterous Hands",
+        "Robotic Arms"
+      ],
+      "applyHintZh": "通过本页联系 Xuezheng（Jeffrey）投递，或发 LinkedIn。",
+      "applyHintEn": "Apply via this page to Xuezheng (Jeffrey), or reach out on LinkedIn.",
+      "externalUrl": null,
+      "trending": true,
+      "logo": null
+    },
     {
       "id": "renice-ai-kernel-engineer",
       "titleZh": "AI 加速器 Kernel 工程师（AI 基础设施）",
